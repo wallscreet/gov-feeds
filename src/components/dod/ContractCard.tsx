@@ -36,13 +36,14 @@ export default function ContractCard({ contract }: ContractCardProps) {
       <div>
         <strong>Contractors:</strong>
         <ul className="list-disc list-inside">
-          {contract.contractors.map((c) => (
-            <li key={c.id}>
+          {contract.contractors.map((c, i) => (
+            <li key={c.id?.toString() ?? `contractor-${i}`}>
               <span className="font-medium">{c.name}</span>
               {c.location && <span className="text-gray-600"> – {c.location}</span>}
             </li>
           ))}
         </ul>
+
       </div>
       <p className="pt-4"><strong>Purpose:</strong></p>
       <h2 className="text-lg mb-2">{contract.purpose}</h2>
