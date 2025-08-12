@@ -12,7 +12,7 @@ export default function DodHome() {
           Department of Defense Data
         </h1>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 max-w-xl mx-auto sm:grid-cols-1 md:grid-cols-1 gap-4">
           {rssLinks.map((link) => (
             <Link key={link.href} href={link.href}>
               <div className="bg-blue-700 text-white font-semibold text-center py-6 rounded cursor-pointer hover:bg-blue-800 transition">

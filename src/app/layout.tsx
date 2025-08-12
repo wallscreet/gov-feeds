@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import AutoBreadcrumbs from "@/components/AutoBreadcrumbs";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,16 +19,20 @@ export const metadata: Metadata = {
   description: "Aggregating official US government data sources into one clear, easy-to-use platform.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         
         <Header />
+        
+        {/* Breadcrumb Bar */}
+        <div className="bg-gray-100">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+            <AutoBreadcrumbs />
+          </div>
+        </div>
+
         {children}
       
       </body>

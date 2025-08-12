@@ -8,7 +8,9 @@ export default function Treasury() {
         <div className="font-sans items-center justify-items-center sm:p-20">
             <main className="gap-[16px] items-center">
             
-                <h1 className="text-3xl font-bold mb-8">Treasury Dashboard</h1>
+                <h1 className="text-center text-xl tracking-widest text-gray-700 uppercase mb-8">
+                US Department of the Treasury
+                </h1>
                 
                 <DebtToThePennyCard />
             
