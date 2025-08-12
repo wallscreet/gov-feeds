@@ -2,6 +2,15 @@ import React from "react";
 import fs from "fs";
 import path from "path";
 
+
+interface DebtRecord {
+  date: string;
+  public_debt: number;
+  intragovernmental: number;
+  total_debt: number;
+}
+
+
 export default async function DebtToThePennyCard() {
   const filePath = path.join(process.cwd(), "public/data/debt_data.json");
   const fileContents = fs.readFileSync(filePath, "utf-8");
@@ -9,7 +18,7 @@ export default async function DebtToThePennyCard() {
 
   // Sort by date (newest first)
   const sorted = json.sort(
-    (a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime()
+    (a: DebtRecord, b: DebtRecord) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
 
   const latest = sorted[0]; // Most recent entry
