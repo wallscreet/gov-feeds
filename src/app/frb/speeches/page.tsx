@@ -4,7 +4,7 @@ export default function Home() {
       <main className="flex flex-col gap-[16px] items-center sm:items-start">
         
         <h1 className="text-center text-xl tracking-widest text-gray-700 uppercase mb-8">
-          FRB Governor Speeches and Statements
+          FRB Governor Speeches and Testimony
         </h1>
       
       </main>
