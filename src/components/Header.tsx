@@ -8,7 +8,7 @@ export default function Header() {
         
         {/* Logo / Brand */}
         <div className="text-2xl font-bold text-slate-600">
-          GovFeeds
+          3J GovFeeds
         </div>
 
         {/* Navigation Links */}

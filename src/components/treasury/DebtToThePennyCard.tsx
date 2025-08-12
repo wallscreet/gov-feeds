@@ -21,11 +21,9 @@ export default async function DebtToThePennyCard() {
   return (
     <section className="pr-14 p-6 bg-white rounded-lg shadow-md border border-gray-200">
       <h2 className="text-xl font-bold mb-4 text-slate-800">
-        Treasury Debt to the Penny
+        U.S. Debt to the Penny As Of: {latest.date}
       </h2>
-      <p>
-      <strong>As of:</strong> {latest.date}
-      </p>
+      
       <ul className="list-disc list-inside space-y-1 text-slate-700">
         <li className="flex justify-between">
           <strong>Debt Held by the Public:</strong>
