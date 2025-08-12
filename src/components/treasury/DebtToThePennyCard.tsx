@@ -7,7 +7,12 @@ export default async function DebtToThePennyCard() {
   const fileContents = fs.readFileSync(filePath, "utf-8");
   const json = JSON.parse(fileContents);
 
-  const latest = json[0]; // Most recent entry
+  // Sort by date (newest first)
+  const sorted = json.sort(
+    (a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+
+  const latest = sorted[0]; // Most recent entry
 
   // Currency formatter for USD
   const formatUSD = (value: number) =>
