@@ -9,8 +9,8 @@ export default function Home() {
       <main className="flex flex-col gap-[16px] items-center sm:items-start">
         
         <Hero />
-        <AboutUs />
         <FeedOverview />
+        <AboutUs />
         <ContactUs />
       
       </main>
