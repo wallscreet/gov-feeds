@@ -7,7 +7,7 @@ const rssLinks = [
 
 export default function DodHome() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen">
       <div className="max-w-5xl mx-auto py-12 px-4">
         <h1 className="text-center text-xl tracking-widest text-gray-700 uppercase mb-8">
           US Department of the Treasury
