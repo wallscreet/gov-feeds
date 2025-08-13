@@ -8,19 +8,19 @@ interface RssItem {
 }
 
 async function getRssFeed() {
-  const response = await fetch('https://www.federalreserve.gov/feeds/feds.xml');
+  const response = await fetch('https://www.federalreserve.gov/feeds/s_t_barr.xml');
   const xml = await response.text();
   const result = await parseStringPromise(xml);
   return result.rss.channel[0].item as RssItem[];
 }
 
-export default async function FinEconDiscussion() {
+export default async function BarrMichael() {
   const items = await getRssFeed();
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-center text-xl tracking-widest text-gray-700 uppercase mb-2">US Federal Reserve - Research Papers</h1>
-      <h1 className="text-center text-xl tracking-widest text-gray-700 uppercase">Financial and Economic Discussions</h1>
+      <h1 className="text-center text-xl tracking-widest text-gray-700 uppercase mb-2">FRB - Speeches and Testimony</h1>
+      <h1 className="text-center text-xl tracking-widest text-gray-700 uppercase">Governor Michael S. Barr</h1>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 pt-6">
         {items.map((item, index) => (
           <div key={index} className="bg-white shadow-2xl rounded-lg p-4">

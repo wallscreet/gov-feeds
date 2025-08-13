@@ -22,7 +22,7 @@ export default async function MonetaryPolicy() {
         <h1 className="text-center text-xl tracking-widest text-gray-700 uppercase mb-2">US Federal Reserve - Press Releases</h1>
         <h1 className="text-center text-xl tracking-widest text-gray-700 uppercase">Monetary Policy</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 p-12">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 pt-6">
             {items.map((item, index) => (
                 <div key={index} className="bg-white shadow-2xl rounded-lg p-4">
                 <h2 className="text-xl font-semibold mb-2">{item.title[0]}</h2>

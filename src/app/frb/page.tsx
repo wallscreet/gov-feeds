@@ -6,7 +6,7 @@ const rssLinks = [
   { label: "Research Papers", href: "/frb/research-papers" },
 ];
 
-export default function DodHome() {
+export default function FRBHome() {
   return (
     <div className="min-h-screen">
       <div className="max-w-5xl mx-auto py-12 px-4">
@@ -17,7 +17,7 @@ export default function DodHome() {
         <div className="grid grid-cols-1 max-w-xl mx-auto sm:grid-cols-1 md:grid-cols-1 gap-4">
           {rssLinks.map((link) => (
             <Link key={link.href} href={link.href}>
-              <div className="bg-blue-700 text-white font-semibold text-center py-6 rounded cursor-pointer hover:bg-blue-800 transition">
+              <div className="bg-blue-600 text-white font-semibold text-center py-6 rounded cursor-pointer hover:bg-blue-800 transition">
                 {link.label}
               </div>
             </Link>
