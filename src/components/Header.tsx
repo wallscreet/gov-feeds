@@ -20,7 +20,7 @@ export default function Header() {
         
         {/* Logo */}
         <div className="text-2xl font-bold text-slate-600">
-          3J GovFeeds
+          GovFeeds 3J
         </div>
 
         {/* Desktop Menu */}
