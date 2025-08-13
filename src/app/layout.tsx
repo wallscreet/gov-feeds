@@ -27,7 +27,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
         <Header />
         
         {/* Breadcrumb Bar */}
-        <div className="bg-gray-100">
+        <div className="">
           <div className="max-w-6xl mx-auto px-8 sm:px-8 lg:px-8">
             <AutoBreadcrumbs />
           </div>

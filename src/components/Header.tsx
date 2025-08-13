@@ -15,7 +15,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="shadow-xl w-full bg-white">
+    <header className="w-full">
       <nav className="max-w-6xl mx-auto flex items-center justify-between py-6 px-8">
         
         {/* Logo */}
