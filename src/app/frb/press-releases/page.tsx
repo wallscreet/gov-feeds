@@ -8,7 +8,7 @@ interface RssItem {
 }
 
 async function getRssFeed() {
-  const response = await fetch('https://www.federalreserve.gov/feeds/speeches.xml');
+  const response = await fetch('https://www.federalreserve.gov/feeds/press_all.xml');
   const xml = await response.text();
   const result = await parseStringPromise(xml);
   return result.rss.channel[0].item as RssItem[];
@@ -20,7 +20,7 @@ export default async function Home() {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-center text-xl tracking-widest text-gray-700 uppercase mb-8">US Federal Reserve - All Press Releases</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {items.map((item, index) => (
           <div key={index} className="bg-white shadow-2xl rounded-lg p-4">
             <h2 className="text-xl font-semibold mb-2">{item.title[0]}</h2>

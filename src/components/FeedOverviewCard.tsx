@@ -8,7 +8,7 @@ export default function FeedOverview() {
       <ul className="list-disc list-inside space-y-2 text-gray-700">
         <li>
             <Link href="/frb" className="hover:text-blue-600 transition-colors">
-              Federal Reserve Board Speeches
+              Federal Reserve Board
             </Link>
         </li>
         <li>
