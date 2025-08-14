@@ -35,11 +35,11 @@ export default async function DebtToThePennyCard() {
           key={index}
           className="pr-14 p-6 bg-white rounded-lg shadow-md border border-slate-200 shadow-xl"
         >
-          <h2 className="text-xl font-bold mb-4 text-slate-800">
+          <h2 className="text-xl font-bold mb-4 text-[#355e93]">
             U.S. Debt to the Penny As Of: <span className="text-blue-500">{record.date}</span>
           </h2>
 
-          <ul className="list-disc list-inside space-y-1 text-slate-700">
+          <ul className="list-disc list-inside space-y-1 text-[#355e93]">
             <li className="flex justify-between">
               <strong>Debt Held by the Public:</strong>
               <span className="ml-4 text-right tabular-nums w-40">

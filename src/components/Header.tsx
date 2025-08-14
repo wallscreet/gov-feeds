@@ -26,23 +26,13 @@ export default function Header() {
         <div className="flex items-center mb-4">
         {/* Logo */}
           <img src="/flag.png" alt="GovFeeds Logo" className="h-8 w-8 mr-2" />
-          <div className="text-2xl font-bold text-slate-600">
+          <div className="text-2xl font-bold text-[#355e93]">
             GovFeeds
           </div>
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 text-slate-600 font-medium relative">
-          <li>
-            <Link href="/" className="hover:text-blue-600 transition-colors">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link href="/about" className="hover:text-blue-600 transition-colors">
-              About
-            </Link>
-          </li>
+        <ul className="hidden md:flex space-x-6 text-[#355e93] font-medium relative">
 
           {/* Feeds Dropdown */}
           <li
@@ -98,16 +88,6 @@ export default function Header() {
       {mobileOpen && (
         <div className="md:hidden bg-white shadow-md">
           <ul className="flex flex-col p-4 space-y-2">
-            <li>
-              <Link href="/" className="block py-2" onClick={() => setMobileOpen(false)}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link href="/about" className="block py-2" onClick={() => setMobileOpen(false)}>
-                About
-              </Link>
-            </li>
 
             {/* Feeds Dropdown (Mobile) */}
             <li>

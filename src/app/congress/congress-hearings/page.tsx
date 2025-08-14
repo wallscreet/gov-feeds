@@ -12,22 +12,20 @@ function cleanTitle(title: string): string {
 }
 
 async function getRssFeed() {
-  const response = await fetch('https://www.govinfo.gov/rss/bills.xml');
+  const response = await fetch('https://www.govinfo.gov/rss/chrg.xml');
   const xml = await response.text();
   const result = await parseStringPromise(xml);
   const items = result.rss.channel[0].item as RssItem[];
   return items.sort((a, b) => new Date(b.pubDate[0]).getTime() - new Date(a.pubDate[0]).getTime());
 }
 
-export default async function CongressBills() {
+export default async function CongressBillsEnrolled() {
   const items = await getRssFeed();
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-4">Congressional Bills</h1>
-      <p className="mb-2 text-[#355e93]">A Congressional Bill is a legislative proposal introduced in either the House or Senate, still in the process of being debated, amended, and voted on. It may or may not pass both chambers.</p>
-      <p className="text-[#355e93]">(IH): Introduced in the House of Representatives</p>
-      <p className="text-[#355e93]">(IS): Introduced in the Senate</p>
+      <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-4">Congressional Hearings</h1>
+      <p></p>
       
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 pt-6">
         {items.map((item, index) => (

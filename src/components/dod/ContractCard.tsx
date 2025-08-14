@@ -22,7 +22,7 @@ interface ContractCardProps {
 
 export default function ContractCard({ contract }: ContractCardProps) {
   return (
-    <div className="border rounded-lg shadow-sm p-4 mb-4">
+    <div className="border border-slate-300 rounded-lg shadow-lg p-4 mb-4">
 
       {/* Amount and agency */}
       <p><strong>Contract Date:</strong> {contract.contract_date}</p>

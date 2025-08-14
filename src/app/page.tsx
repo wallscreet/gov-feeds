@@ -5,8 +5,8 @@ import ContactUs from "@/components/ContactUsCard";
 
 export default function Home() {
   return (
-    <div className="font-sans items-center justify-items-center min-h-screen pb-10 sm:p-20">
-      <main className="flex flex-col gap-[20px] items-center sm:items-start">
+    <div className="font-sans items-center justify-items-center min-h-screen pb-2 sm:p-20">
+      <main className="flex flex-col gap-[25px] items-center sm:items-start">
         
         <Hero />
         <FeedOverview />
