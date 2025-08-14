@@ -79,7 +79,7 @@ export default function Header() {
           </li>
 
           <li>
-            <Link href="/contact-us" className="hover:text-blue-600 transition-colors">
+            <Link href="/contact" className="hover:text-blue-600 transition-colors">
               Contact
             </Link>
           </li>

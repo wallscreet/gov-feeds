@@ -1,4 +1,4 @@
-import React from "react";
+import Link from 'next/link';
 
 export default function ContactUs() {
   return (
@@ -7,9 +7,10 @@ export default function ContactUs() {
       <p className="text-gray-700 mb-6">
         Have questions or ideas? We’d love to hear from you.
       </p>
-      <button className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-800">
+      <Link href="/contact" className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-800 inline-block">
         Contact Us
-      </button>
+      </Link>
     </section>
   );
 }
+
