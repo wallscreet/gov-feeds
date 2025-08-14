@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "3J Gov Feeds",
+  title: "GovFeeds",
   description: "Aggregating official US government data sources into one clear, easy-to-use platform.",
 };
 

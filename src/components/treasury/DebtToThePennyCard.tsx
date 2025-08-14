@@ -33,10 +33,10 @@ export default async function DebtToThePennyCard() {
       {sorted.map((record, index) => (
         <section
           key={index}
-          className="pr-14 p-6 bg-white rounded-lg shadow-md border border-gray-200"
+          className="pr-14 p-6 bg-white rounded-lg shadow-md border border-slate-200 shadow-xl"
         >
           <h2 className="text-xl font-bold mb-4 text-slate-800">
-            U.S. Debt to the Penny As Of: {record.date}
+            U.S. Debt to the Penny As Of: <span className="text-blue-500">{record.date}</span>
           </h2>
 
           <ul className="list-disc list-inside space-y-1 text-slate-700">

@@ -23,7 +23,7 @@ export default async function CookLisa() {
       <h1 className="text-center text-xl tracking-widest text-gray-700 uppercase">Governor Lisa D. Cook</h1>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 pt-6">
         {items.map((item, index) => (
-          <div key={index} className="bg-white shadow-2xl rounded-lg p-4">
+          <div key={index} className="bg-gray-100 border border-slate-200 shadow-lg rounded-lg p-4">
             <h2 className="text-xl font-semibold mb-2">{item.title[0]}</h2>
             <p className="text-gray-600 mb-2">{new Date(item.pubDate[0]).toLocaleDateString()}</p>
             <p className="text-gray-700 mb-4">{item.description[0].substring(0, 420)}...</p>

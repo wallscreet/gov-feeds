@@ -12,15 +12,23 @@ export default function Header() {
     { label: "DoD", href: "/dod" },
     { label: "Federal Reserve Board", href: "/frb" },
     { label: "Treasury Direct", href: "/treasury" },
+    { label: "US Congress", href: "/congress" },
   ];
 
   return (
     <header className="w-full">
       <nav className="max-w-6xl mx-auto flex items-center justify-between py-6 px-8">
         
-        {/* Logo */}
+        {/* Logo
         <div className="text-2xl font-bold text-slate-600">
-          GovFeeds 3J
+          GovFeeds
+        </div> */}
+        <div className="flex items-center mb-4">
+        {/* Logo */}
+          <img src="/flag.png" alt="GovFeeds Logo" className="h-8 w-8 mr-2" />
+          <div className="text-2xl font-bold text-slate-600">
+            GovFeeds
+          </div>
         </div>
 
         {/* Desktop Menu */}
