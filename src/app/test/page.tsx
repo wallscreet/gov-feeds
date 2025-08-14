@@ -1,6 +1,5 @@
 import path from "path";
 import fs from "fs";
-// import DebtToThePennyCard from "@/components/treasury/DebtToThePennyCard";
 import DebtToThePenny from "@/components/treasury/DebtToThePenny";
 
 export default function Treasury() {
@@ -13,7 +12,6 @@ export default function Treasury() {
                 US Debt to the Penny
                 </h1>
                 
-                {/* <DebtToThePennyCard /> */}
                 <DebtToThePenny />
             
             

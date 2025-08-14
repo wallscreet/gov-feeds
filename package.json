@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.21.3",
     "axios": "^1.11.0",
     "fast-xml-parser": "^5.2.5",
     "lucide-react": "^0.539.0",
