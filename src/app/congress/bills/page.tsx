@@ -1,4 +1,5 @@
 import { parseStringPromise } from 'xml2js';
+import { parse } from 'node-html-parser';
 
 interface RssItem {
   title: string[];
@@ -9,6 +10,13 @@ interface RssItem {
 
 function cleanTitle(title: string): string {
   return title.replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function parseDescriptionForPdfUrl(description: string): string | null {
+  const root = parse(description);
+  const pdfLink = root.querySelectorAll('a').find(a => a.getAttribute('href')?.endsWith('.pdf'));
+  const href = pdfLink?.getAttribute('href');
+  return href !== undefined ? href : null;
 }
 
 async function getRssFeed() {
@@ -30,14 +38,21 @@ export default async function CongressBills() {
       <p className="text-[#355e93]">(IS): Introduced in the Senate</p>
       
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4 pt-6">
-        {items.map((item, index) => (
-          <div key={index} className="bg-gray-100 border border-slate-200 shadow-lg rounded-lg p-4">
-            <h2 className="text-xl text-[#355e93] font-semibold mb-2">{cleanTitle(item.title[0])}</h2>
-            <p className="text-gray-600 mb-2">{new Date(item.pubDate[0]).toLocaleDateString()}</p>
-            {/* <p className="text-gray-700 mb-4">{item.description[0].substring(0, 420)}...</p> */}
-            <a href={item.link[0]} target="_blank" rel="noopener noreferrer" className="text-[#355e93] hover:underline hover:text-blue-600">Read more</a>
-          </div>
-        ))}
+        {items.map((item, index) => {
+          const pdfUrl = parseDescriptionForPdfUrl(item.description[0]);
+          return (
+            <div key={index} className="bg-gray-100 border border-slate-200 shadow-lg rounded-lg p-4">
+              <h2 className="text-xl text-[#355e93] font-semibold mb-2">{cleanTitle(item.title[0])}</h2>
+              <p className="text-gray-600 mb-2">{new Date(item.pubDate[0]).toLocaleDateString()}</p>
+              <div className="flex space-x-4">
+                <a href={item.link[0]} target="_blank" rel="noopener noreferrer" className="text-[#355e93] hover:underline hover:text-blue-600">Read more</a>
+                {pdfUrl && (
+                  <a href={pdfUrl} target="_blank" rel="noopener noreferrer" className="text-[#355e93] hover:underline hover:text-blue-600">View Bill Content (pdf)</a>
+                )}
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

@@ -3142,5 +3142,207 @@
     },
     "contract_date": "2025-08-12",
     "award_text": "CORRECTION: The contract announced on Aug. 8, 2025, for Ameriqual Group LLC, doing business as Ameriqual Packaging, Evansville, Indiana (SPE3S1-25-D-Z205), for $221,062,100 and Baxters North America Inc., doing business as The Wornick Co., Cincinnati, Ohio (SPE3S1-25-D-Z206), for $25,308,625 was announced with an incorrect award date. The correct award date is Aug. 14, 2025."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Lockheed Martin Corp.",
+        "contract_id": "W31P4Q-23-C-0005",
+        "location": "Orlando, Florida"
+      }
+    ],
+    "purpose": "Production Year Four of HELLFIRE/JAGM missiles",
+    "amount": 720120883.0,
+    "contracting_agency": {
+      "name": "Army Contracting Command",
+      "location": "Redstone Arsenal, Alabama"
+    },
+    "contract_date": "2025-08-13",
+    "award_text": "Lockheed Martin Corp., Orlando, Florida, was awarded a $720,120,883 modification (P00060) to contract W31P4Q-23-C-0005 for Production Year Four of HELLFIRE/JAGM missiles. The modification brings the total cumulative face value of the contract to $1,493,541,465. Work will be performed in Ocala, Florida, with an estimated completion date of Sept. 30, 2028. Fiscal 2025 missile procurement, Army funds in the amount of $720,120,883 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Burns & McDonnell Engineering Co. Inc.",
+        "contract_id": "W91236-25-D-A006",
+        "location": "Kansas City, Missouri"
+      },
+      {
+        "name": "Tetra Tech/Mason & Hanger JV",
+        "contract_id": "W91236-25-D-A007",
+        "location": "Ann Arbor, Michigan"
+      },
+      {
+        "name": "Black & Veatch – Zapata JV",
+        "contract_id": "W91236-25-D-A009",
+        "location": "Overland Park, Kansas"
+      },
+      {
+        "name": "Benham-WSP JV",
+        "contract_id": "W91236-25-D-A010",
+        "location": "Jacksonville, Florida"
+      }
+    ],
+    "purpose": "multi-discipline architect-engineer services",
+    "amount": 240000000.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Norfolk, Virginia"
+    },
+    "contract_date": "2025-08-13",
+    "award_text": "Burns & McDonnell Engineering Co. Inc., Kansas City, Missouri (W91236-25-D-A006); Tetra Tech/Mason & Hanger JV, Ann Arbor, Michigan (W91236-25-D-A007); Black & Veatch – Zapata JV, Overland Park, Kansas (W91236-25-D-A009); and Benham-WSP JV, Jacksonville, Florida (W91236-25-D-A010), will compete for each order of the $240,000,000 firm-fixed-price contract for multi-discipline architect-engineer services. This total cumulative face value is $240,000,000. Bids were solicited via the internet with 10 received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 12, 2030. U.S. Army Corps of Engineers, Norfolk, Virginia, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "CDM Constructors Inc.",
+        "contract_id": "W912ER-25-C-A001",
+        "location": "Boston, Massachusetts"
+      }
+    ],
+    "purpose": "construction of an ammunition storage site",
+    "amount": 32850117.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers, Middle East District",
+      "location": "Middle East"
+    },
+    "contract_date": "2025-08-13",
+    "award_text": "CDM Constructors Inc., Boston, Massachusetts, was awarded a $32,850,117 firm-fixed-price contract for construction of an ammunition storage site with a total cumulative face value of $32,850,117. Bids were solicited via the internet with three received. Work will be performed in Israel with an estimated completion date of Dec. 12, 1027. Fiscal 2025 Foreign Military Sales (Israel) funds in the amount of $32,850,117 were obligated at the time of the award. U.S. Army Corps of Engineers, Middle East District, is the contracting activity (W912ER-25-C-A001)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Rise8 Inc.",
+        "contract_id": "FA8730-23-D-B004",
+        "location": "Tampa, Florida"
+      }
+    ],
+    "purpose": "software development tools and services",
+    "amount": 399000000.0,
+    "contracting_agency": {
+      "name": "Air Force Research Laboratory",
+      "location": "Wright Patterson Air Force Base, Ohio"
+    },
+    "contract_date": "2025-08-13",
+    "award_text": "Rise8 Inc. Tampa, Florida, has been awarded a $399,000,000, indefinite-delivery/indefinite-quantity contract modification (P0005) to a previously awarded contract (FA8730-23-D-B004) for software development tools and services. The modification brings the total cumulative face value of the contract to $499,000,000 from $100,000,000. Work will be performed at Tampa, Florida, and is expected to be completed by June 4, 2030. No funds will be obligated at the time of award. The Air Force Research Laboratory, Wright Patterson Air Force Base, Ohio, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Geost",
+        "contract_id": "FA8819-21-C-1001",
+        "location": "Tucson, Arizona"
+      }
+    ],
+    "purpose": "Modification to previously awarded contract with date correction",
+    "amount": 15616578.0,
+    "contracting_agency": {
+      "name": "Department of Defense",
+      "location": "Washington, D.C."
+    },
+    "contract_date": "2025-08-13",
+    "award_text": "CORRECTION: The $15,616,578 modification (P00034) to a previously awarded contract (FA8819-21-C-1001) awarded to Geost, Tucson, Arizona, announced on Aug. 12, 2025, was announced with the incorrect date. The correct date is Aug. 13, 2025."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Standard Aero Inc.",
+        "contract_id": "N0001924D0126",
+        "location": "San Antonio, Texas"
+      }
+    ],
+    "purpose": "Provide continued depot repair of T56-A-427A engines, to include the repair of the power section, torque meter, gearbox, and accessories for the E-2D Advanced Hawkeye aircraft.",
+    "amount": 58916012.0,
+    "contracting_agency": {
+      "name": "Naval Air Systems Command",
+      "location": "Patuxent River, Maryland"
+    },
+    "contract_date": "2025-08-13",
+    "award_text": "Standard Aero Inc., San Antonio, Texas, is awarded a $58,916,012 modification (P00002) to a firm-fixed-price, indefinite-delivery/indefinite-quantity contract (N0001924D0126). This modification exercises options to provide continued depot repair of T56-A-427A engines, to include the repair of the power section, torque meter, gearbox, and accessories for the E-2D Advanced Hawkeye aircraft. Work will be performed in San Antonio, Texas (70%); Winnipeg, Canada (25%); and Indianapolis, Indiana (5%), and is expected to be completed by August 2026. No funds will be obligated at the time of award; funds will be obligated on individual orders as they are issued. This contract was competitively procured. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Nemean Solutions LLC",
+        "contract_id": "M67854-25-D-0004",
+        "location": "Sierra Vista, Arizona"
+      }
+    ],
+    "purpose": "to provide Contractor Support Services in support of Program Executive Officer Land Systems business and acquisition related activities to include acquisition policy, program development, program analysis, public affairs, acquisition logistics management support, financial management support, audit readiness support, engineering and safety support.",
+    "amount": 56769968.0,
+    "contracting_agency": {
+      "name": "Marine Corps Systems Command",
+      "location": "Quantico, Virginia"
+    },
+    "contract_date": "2025-08-13",
+    "award_text": "Nemean Solutions LLC,* Sierra Vista, Arizona, is awarded a $56,769,968 firm-fixed-price, indefinite-delivery/indefinite-quantity contract to provide Contractor Support Services in support of Program Executive Officer Land Systems business and acquisition related activities to include acquisition policy, program development, program analysis, public affairs, acquisition logistics management support, financial management support, audit readiness support, engineering and safety support. Work will be performed in Quantico, Virginia (96%); and Albany, Georgia (4%), and is expected to be completed in August 2030. No funds will be obligated at time of award. Funds will be obligated on individual task orders as they are issued. This contract was not competitively procured pursuant to Federal Acquisition Regulation 19.8, Contracting with the Small Business Administration (8(a) Program). The Marine Corps Systems Command, Quantico, Virginia, is the contracting activity (M67854-25-D-0004)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Rockwell Collins Simulation and Training Solutions",
+        "contract_id": "N6134021C0017",
+        "location": "Cedar Rapids, Iowa"
+      }
+    ],
+    "purpose": "Modification to add production and testing of Special Programs Advanced Readiness Trainer Afloat/Ashore (SPARTA) 12, including updates and compliance, as well as SPARTA Joint Simulation Environment/Global Reusable Interface Domain and associated program support. Additionally, exercises options for Simulated Maintenance Trainer 2 (SMT-2) Delta Software System Configuration 5 (DSSC-5) concurrency, technical data, computer software, and production of six flight aircraft flight management computer functional equivalent units in support of the E-2D Hawkeye Integrated Training Systems for the Navy.",
+    "amount": 16027070.0,
+    "contracting_agency": {
+      "name": "Naval Air Warfare Center Training Systems Division",
+      "location": "Orlando, Florida"
+    },
+    "contract_date": "2025-08-13",
+    "award_text": "Rockwell Collins Simulation and Training Solutions, Cedar Rapids, Iowa, is awarded a $16,027,070 modification (P00034) to a previously awarded firm-fixed-price contract (N6134021C0017). This modification adds in-scope production and testing of Special Programs Advanced Readiness Trainer Afloat/Ashore (SPARTA) 12, to include updates and compliance of SPARTA 12 as well as SPARTA Joint Simulation Environment/Global Reuseable Interface Domain and associated program support. Additionally, this modification exercises options for Simulated Maintenance Trainer 2 (SMT-2) Delta Software System Configuration 5 (DSSC-5) concurrency, as well as technical data and computer software in support of SMT-2 hardware and software baseline to DSSC-5. The modification also exercises options for the production and delivery of six flight aircraft flight management computer functional equivalent units. These efforts are in support of the E-2D Hawkeye Integrated Training Systems for the Navy. Work will be performed in Sterling, Virginia (60%); Norfolk, Virginia (30%); Point Mugu, California (5%); and Orlando, Florida (5%), and is expected to be completed in August 2027. Fiscal 2025 aircraft procurement (Navy) funds in the amount of $13,171,919; and fiscal 2023 aircraft procurement (Navy) funds in the amount of $2,855,151, will be obligated at the time of award, $2,855,151 of which will expire at the end of the current fiscal year. This modification was not competed. Naval Air Warfare Center Training Systems Division, Orlando, Florida, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "HII Fleet Support Group LLC",
+        "contract_id": "N62793-25-F-7406",
+        "location": "Virginia"
+      }
+    ],
+    "purpose": "To provide execution for the USS John C. Stennis (CVN 74) refueling complex overhaul and carrier engineering maintenance assist team support, including assistance for preparation, evaluation, and execution of repairs, technical guidance for maintenance execution and repairs, and hands-on instruction in fault identification and application of current maintenance and repair techniques.",
+    "amount": 10984857.0,
+    "contracting_agency": {
+      "name": "Supervisor of Shipbuilding, Conversion and Repair",
+      "location": "Newport News, Virginia"
+    },
+    "contract_date": "2025-08-13",
+    "award_text": "HII Fleet Support Group LLC, Virginia, is awarded a $10,984,857 cost-plus-fixed-fee delivery order (N62793-25-F-7406) as part of a previously awarded contract (N00024-21-D-4114) to provide execution for the USS John C. Stennis (CVN 74) refueling complex overhaul and carrier engineering maintenance assist team support. Work includes assistance for preparation, evaluation, and execution of repairs as well as technical guidance for maintenance execution and repairs. This contract, where specified, will provide \"hands on\" instruction in fault identification and application of current maintenance and repair techniques in accordance with the contract. Work will be performed in Newport News, Virginia, and is expected to be completed in August 2026. Fiscal 2025 shipbuilding and conversion (Navy) cost to complete funding in the amount of $10,984,857 was obligated at time of award and will expire at the end of the period of performance. Supervisor of Shipbuilding, Conversion and Repair, Newport News, Virginia, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Greensea Systems Inc.",
+        "contract_id": "M67854-25-D-5303",
+        "location": "Richmond, Vermont"
+      }
+    ],
+    "purpose": "To procure Amphibious Unmanned Ground Vehicles (AUGVs) as part of the Littoral Explosive Ordnance Neutralization Family of Systems.",
+    "amount": 10000000.0,
+    "contracting_agency": {
+      "name": "Marine Corps Systems Command",
+      "location": "Quantico, Virginia"
+    },
+    "contract_date": "2025-08-13",
+    "award_text": "Greensea Systems Inc., Richmond, Vermont, is awarded a $10,000,000 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for the Amphibious Unmanned Ground Vehicle (AUGV). The intent of this contract is to procure AUGVs as part of the Littoral Explosive Ordnance Neutralization Family of Systems. Work will be performed in Richmond, Vermont, and is expected to be completed in August 2030. Funds in the amount of $9,004,750 are expected to be obligated upon award of this contract. This contract is awarded based on a sole-source basis under authority of 10 U.S. Code 4021. Marine Corps Systems Command, Quantico, Virginia, is the contracting activity (M67854-25-D-5303)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Systems & Technology Research LLC",
+        "contract_id": "HR001124C0309",
+        "location": "Woburn, Massachusetts"
+      }
+    ],
+    "purpose": "to exercise Option One of the Artificial Intelligence Reinforcements program",
+    "amount": 11386095.0,
+    "contracting_agency": {
+      "name": "Defense Advanced Research Projects Agency",
+      "location": "Arlington, Virginia"
+    },
+    "contract_date": "2025-08-13",
+    "award_text": "Systems & Technology Research LLC, Woburn, Massachusetts, has been awarded an $11,386,095 modification (P00006) to cost-plus-fixed-fee contract HR001124C0309 to exercise Option One of the Artificial Intelligence Reinforcements program. The modification brings the total cumulative face value of the contract to $17,261,425 from $5,875,330. Work will be performed in Woburn, Massachusetts (75%); Beavercreek, Ohio (20%); and Carlsbad, California (5%), with an expected completion date of February 2028. Fiscal 2025 research and development funds in the amount of $1,785,000 are being obligated at the time of award. The Defense Advanced Research Projects Agency, Arlington, Virginia, is the contracting activity."
   }
 ]

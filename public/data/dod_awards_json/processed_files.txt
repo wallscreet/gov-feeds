@@ -9,3 +9,4 @@ Contracts_For_July_29_2025.json
 Contracts_For_July_30_2025.json
 Contracts_For_July_31_2025.json
 Contracts_For_Aug._12_2025.json
+Contracts_For_Aug._13_2025.json
