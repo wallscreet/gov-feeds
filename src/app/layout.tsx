@@ -23,18 +23,22 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        
-        <Header />
-        
-        {/* Breadcrumb Bar */}
-        {/* <div className="">
-          <div className="max-w-6xl mx-auto px-8">
-            <AutoBreadcrumbs />
-          </div>
-        </div> */}
+        {/* Uncomment the div below and comment the div below it to add background image }
+        {/* <div className="relative inset-0 bg-cover" style={{ backgroundImage: "url('/AiBrainOnChip.jpg"}}> */}
+        <div>
+          <div>
+            <Header />
+            
+            {/* Breadcrumb Bar */}
+            {/* <div className="">
+              <div className="max-w-6xl mx-auto px-8">
+                <AutoBreadcrumbs />
+              </div>
+            </div> */}
 
-        {children}
-      
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );
