@@ -10,7 +10,7 @@ export default function FRBHome() {
   return (
     <div className="min-h-screen pt-24">
       <div className="max-w-5xl mx-auto px-4">
-        <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-8  ">
+        <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-8 font-semibold">
           Board of Governors of the Federal Reserve System
         </h1>
 

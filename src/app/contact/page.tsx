@@ -42,15 +42,15 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="text-center max-w-lg mx-auto p-6 pt-24 text-[#355e93]">
-      <h1 className="text-3xl text- mb-4">Contact Me</h1>
+    <div className="text-center max-w-lg h-screen mx-auto p-6 pt-24 text-[#355e93]">
+      <h1 className="text-3xl text- mb-4 font-bold">Contact Me</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           name="name"
           placeholder="Your name"
           value={formData.name}
           onChange={handleChange}
-          className="border p-2 w-full rounded"
+          className="border p-2 w-full rounded bg-white"
           required
         />
         <input
@@ -59,7 +59,7 @@ export default function ContactPage() {
           placeholder="Your email"
           value={formData.email}
           onChange={handleChange}
-          className="border p-2 w-full rounded"
+          className="border p-2 w-full rounded bg-white"
           required
         />
         <textarea
@@ -67,7 +67,7 @@ export default function ContactPage() {
           placeholder="Your message"
           value={formData.message}
           onChange={handleChange}
-          className="border p-2 w-full rounded"
+          className="border p-2 w-full rounded bg-white"
           required
         />
         

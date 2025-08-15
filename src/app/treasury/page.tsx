@@ -9,7 +9,7 @@ export default function DodHome() {
   return (
     <div className="min-h-screen">
       <div className="max-w-5xl mx-auto pt-12 px-4">
-        <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mt-12 mb-8">
+        <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mt-12 mb-8 font-semibold">
           US Department of the Treasury
         </h1>
 

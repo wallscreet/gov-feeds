@@ -12,7 +12,7 @@ export default function Congress() {
   return (
     <div className="min-h-screen">
       <div className="max-w-5xl mx-auto pt-24 px-4">
-        <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-8">
+        <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-8 font-semibold">
           United States Congress
         </h1>
 
