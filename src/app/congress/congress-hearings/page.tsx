@@ -23,7 +23,7 @@ export default async function CongressBillsEnrolled() {
   const items = await getRssFeed();
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 pt-24">
       <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-4">Congressional Hearings</h1>
       <p></p>
       

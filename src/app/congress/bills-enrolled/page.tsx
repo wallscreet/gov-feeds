@@ -31,7 +31,7 @@ export default async function CongressBills() {
   const items = await getRssFeed();
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 pt-24">
       <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-4">Congressional Bills - Enrolled</h1>
       <p className="mb-2 text-[#355e93]">An Enrolled Congressional Bill is the final version of a bill that has passed both the House and Senate in identical form, been certified by the originating chamber’s clerk, signed by the presiding officers (Speaker of the House and President Pro Tempore of the Senate), and is ready for presentation to the President for signature or veto.</p>
       
@@ -40,12 +40,12 @@ export default async function CongressBills() {
           const pdfUrl = parseDescriptionForPdfUrl(item.description[0]);
           return (
             <div key={index} className="bg-gray-100 border border-slate-200 shadow-lg rounded-lg p-4">
+              <p className="text-slate-600 mb-2">{new Date(item.pubDate[0]).toLocaleDateString()}</p>
               <h2 className="text-xl text-[#355e93] font-semibold mb-2">{cleanTitle(item.title[0])}</h2>
-              <p className="text-gray-600 mb-2">{new Date(item.pubDate[0]).toLocaleDateString()}</p>
               <div className="flex space-x-4">
                 <a href={item.link[0]} target="_blank" rel="noopener noreferrer" className="text-[#355e93] hover:underline hover:text-blue-600">Read more</a>
                 {pdfUrl && (
-                  <a href={pdfUrl} target="_blank" rel="noopener noreferrer" className="text-[#355e93] hover:underline hover:text-blue-600">View Bill Content (pdf)</a>
+                  <a href={pdfUrl} target="_blank" rel="noopener noreferrer" className="text-red-700 hover:underline hover:text-blue-600">View Bill PDF</a>
                 )}
               </div>
             </div>

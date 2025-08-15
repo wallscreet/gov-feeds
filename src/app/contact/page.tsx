@@ -42,8 +42,8 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="max-w-lg mx-auto p-6">
-      <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
+    <div className="text-center max-w-lg mx-auto p-6 pt-24 text-[#355e93]">
+      <h1 className="text-3xl text- mb-4">Contact Me</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           name="name"
@@ -82,7 +82,7 @@ export default function ContactPage() {
           autoComplete="off"
         />
 
-        <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded">
+        <button type="submit" className="bg-[#355e93] hover:bg-blue-800 text-white px-6 py-2 rounded">
           Send
         </button>
       </form>

@@ -27,11 +27,11 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
         <Header />
         
         {/* Breadcrumb Bar */}
-        <div className="">
+        {/* <div className="">
           <div className="max-w-6xl mx-auto px-8">
             <AutoBreadcrumbs />
           </div>
-        </div>
+        </div> */}
 
         {children}
       

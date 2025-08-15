@@ -24,7 +24,7 @@ export default async function Home() {
   const items = await getRssFeed();
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 pt-24">
       <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-2">Department of Defense</h1>
       <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-2">Feature Stories</h1>
       

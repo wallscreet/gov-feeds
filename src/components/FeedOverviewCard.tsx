@@ -40,24 +40,24 @@ export default function FeedOverview() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <ul className="list-disc list-inside space-y-2 text-[#355e93]">
           <li>
-            <Link href="/congress" className="hover:text-blue-600 transition-colors">
+            <Link href="/congress" className="hover:text-slate-800 transition-colors">
               US Congress
             </Link>
           </li>
           <li>
-            <Link href="/frb" className="hover:text-blue-600 transition-colors">
+            <Link href="/frb" className="hover:text-slate-800 transition-colors">
               Federal Reserve Board
             </Link>
           </li>
         </ul>
         <ul className="list-disc list-inside space-y-2 text-[#355e93]">
           <li>
-            <Link href="/dod" className="hover:text-blue-600 transition-colors">
+            <Link href="/dod" className="hover:text-slate-800 transition-colors">
               Department of Defense
             </Link>
           </li>
           <li>
-            <Link href="/treasury" className="hover:text-blue-600 transition-colors">
+            <Link href="/treasury" className="hover:text-slate-800 transition-colors">
               Treasury Direct
             </Link>
           </li>

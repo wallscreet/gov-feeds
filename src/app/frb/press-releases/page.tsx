@@ -10,7 +10,7 @@ const rssLinks = [
 export default function PressReleases() {
   return (
     <div className="min-h-screen">
-      <div className="max-w-5xl mx-auto py-12 px-4">
+      <div className="max-w-5xl mx-auto py-12 px-4 pt-24">
         <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-8">
           Federal Reserve Board - Press Releases
         </h1>
