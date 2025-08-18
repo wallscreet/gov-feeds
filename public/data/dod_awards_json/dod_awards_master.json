@@ -3804,5 +3804,180 @@
     },
     "contract_date": "2025-08-15",
     "award_text": "Deloitte Consulting LLP, Arlington, Virginia, has been awarded a task order contract (HQ0034-16-A-0015). The amount of this action is $12,214,797. Fiscal 2025 operations and maintenance funds in the amount of $6,140,182 are being obligated at the time of the award. The cumulative total of the contract is $71,717,690. The purpose of this contract is to provide assessments, policy recommendations, and support for the Office of the Deputy Assistant Secretary for Logistics. The work will be performed in Office of the Deputy Assistant Secretary of Defense for Logistics in the Pentagon and the Mark Center. The estimated contract completion date is Feb. 20, 2031. Washington Headquarters Services, Arlington, Virginia, is the contracting authority."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Metron Inc.",
+        "contract_id": "W911QX-25-C-0005",
+        "location": "Reston, Virginia"
+      }
+    ],
+    "purpose": "research, development, test, and evaluation of artificial intelligence and machine learning-enabling technologies for expeditionary maneuver and air/ground reconnaissance",
+    "amount": 48652798.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Philadelphia, Pennsylvania"
+    },
+    "contract_date": "2025-08-18",
+    "award_text": "Metron Inc.,* Reston, Virginia, was awarded a $48,652,798 cost-plus-fixed-fee contract for research, development, test, and evaluation of artificial intelligence and machine learning-enabling technologies for expeditionary maneuver and air/ground reconnaissance. Bids were solicited via the internet with one received. Work will be performed in Reston, Virginia, with an estimated completion date of June 17, 2029. Fiscal 2025 research, development, test and evaluation, defense-wide funds in the amount of $3,000,000 were obligated at the time of the award. U.S. Army Corps of Engineers, Philadelphia, Pennsylvania, is the contracting activity (W911QX-25-C-0005)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Burns & McDonnell Engineering Co. Inc.",
+        "contract_id": "9127S-25-F-6005",
+        "location": "Kansas City, Missouri"
+      }
+    ],
+    "purpose": "architecture and engineering design",
+    "amount": 8360902.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Little Rock, Arkansas"
+    },
+    "contract_date": "2025-08-18",
+    "award_text": "Burns & McDonnell Engineering Co. Inc., Kansas City, Missouri, was awarded a $8,360,902 modification (P00004) to contract 9127S-25-F-6005 for architecture and engineering design. The modification brings the total cumulative face value of the contract to $13,603,267. Work will be performed in Fort Smith, Arkansas, with an estimated completion date of May 15, 2026. Fiscal 2025 military construction, Army funds in the amount of $8,360,902 were obligated at the time of the award. U.S. Army Corps of Engineers, Little Rock, Arkansas, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Lockheed Martin Corp., doing business as Missile and Fire Control",
+        "contract_id": "N0001922F0010",
+        "location": "Orlando, Florida"
+      }
+    ],
+    "purpose": "Provides continued non-recurring engineering and material to support post-critical design review activities and test asset builds required to establish a new Long Range Anti-Ship Missile C-3 variant for the Navy.",
+    "amount": 48107728.0,
+    "contracting_agency": {
+      "name": "Naval Air Systems Command",
+      "location": "Patuxent River, Maryland"
+    },
+    "contract_date": "2025-08-18",
+    "award_text": "Lockheed Martin Corp., doing business as Missile and Fire Control, Orlando, Florida, is awarded a $48,107,728 modification (P00028) to a cost-plus-fixed-fee order (N0001922F0010) against a previously issued basic ordering agreement (N0001919G0011). This modification definitizes contract line-item number 0005 of the order, increasing the value above the original not to exceed value. The modification provides continued non-recurring engineering and material to support post-critical design review activities and test asset builds required to establish a new Long Range Anti-Ship Missile C-3 variant for the Navy. Work will be performed in Orlando, Florida (97.5%); Troy, Alabama (1.5%); and Ocala, Florida (1%), and is expected to be completed in November 2026. Fiscal 2025 research, development, test and evaluation (Navy) funds in the amount of $48,107,728 will be obligated at the time of award, none of which will expire at the end of the current fiscal year. This contract action was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Axillon Aerospace LLC",
+        "contract_id": "N00383-25-F-NS0D",
+        "location": "Rockmart, Georgia"
+      }
+    ],
+    "purpose": "for the procurement of 108 aircraft fuel tank spares in support of Naval Supply Systems Command (NAVSUP) Weapon Systems Support’s (WSS) F/A-18 Integrated Weapon System Team",
+    "amount": 15431460.0,
+    "contracting_agency": {
+      "name": "NAVSUP WSS",
+      "location": "Philadelphia, Pennsylvania"
+    },
+    "contract_date": "2025-08-18",
+    "award_text": "Axillon Aerospace LLC, Rockmart, Georgia, is being awarded $15,431,460 for a firm-fixed delivery order (N00383-25-F-NS0D) under a previously awarded basic ordering agreement (N00383-25-G-NS01) for the procurement of 108 aircraft fuel tank spares in support of Naval Supply Systems Command (NAVSUP) Weapon Systems Support’s (WSS) F/A-18 Integrated Weapon System Team. The delivery order does not include an option provision, and work will be completed by December 2028. All work will be performed in Rockmart, Georgia (100%). Fiscal 2025 working capital funds (Navy) in the full amount of $15,431,460 will be obligated at the time of award. and funds will not expire at the end of the current fiscal year. One firm was solicited for this non-competitive, sole-source requirement in accordance with Federal Acquisition Regulation 10 U.S. Code 3204 (c)(1) with one offer received. NAVSUP WSS, Philadelphia, Pennsylvania, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Envisioneering Inc.",
+        "contract_id": "N0017325C2447",
+        "location": "Alexandria, Virginia"
+      }
+    ],
+    "purpose": "research and development (R&D) for improved off-board electronic warfare capability",
+    "amount": 12737342.0,
+    "contracting_agency": {
+      "name": "U.S. Naval Research Laboratory",
+      "location": "Washington, D.C."
+    },
+    "contract_date": "2025-08-18",
+    "award_text": "Envisioneering Inc., Alexandria, Virginia, was awarded a $12,737,342 cost-plus-fixed-fee (CPFF) contract for research and development (R&D) for improved off-board electronic warfare capability. This contract includes options, which, if exercised, would bring the cumulative value to $67,665,581. Work will be performed at the U.S. Naval Research Laboratory, Washington, D.C., and is expected to be completed by August 2026. Fiscal 2025 operations and maintenance (Navy) in the amount of $50,000 will be obligated at time of award and will expire at the end of the current fiscal year. Fiscal 2025 research, development, test and evaluation (Navy); fiscal 2025 research, development, test and evaluation (Defense); fiscal 2025 shipbuilding and conversion (Navy), fiscal 2024 research, development, test and evaluation (Army); and working capital, funds (Navy) in the amount of $2,400,272, will be obligated at time of award and do not expire at the end of the current fiscal year. The contract was competitively procured as a total small business set aside with two offers received via Contract Opportunities on SAM.gov. The U.S. Naval Research Laboratory, Washington, D.C., is the contracting activity (N0017325C2447)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "World Wide Technology LLC",
+        "contract_id": "M67854-25-F-0156",
+        "location": "St. Louis, Missouri"
+      }
+    ],
+    "purpose": "Provides information technology infrastructure hardware, specifically application server module – heavy hardware, to host enterprise grade services in a tactical environment.",
+    "amount": 11019432.0,
+    "contracting_agency": {
+      "name": "Marine Corps Systems Command",
+      "location": "Quantico, Virginia"
+    },
+    "contract_date": "2025-08-18",
+    "award_text": "World Wide Technology LLC, St. Louis, Missouri, is awarded a $11,019,432 firm-fixed-price contract for application server module – heavy hardware. This contract provides information technology infrastructure hardware to host enterprise grade services in a tactical environment. Work will be performed at St. Louis, Missouri, with an expected completion date of Nov. 24, 2025. The maximum dollar value is $11,019,432 with no option years. Fiscal 2025 procurement (Marine Corps) funds in the amount of $11,019,432 are being obligated at time of award. Contract funds in the amount of $11,019,432 will not expire at the end of the current fiscal year. This contract was competitively procured via NASA Solutions for Enterprise-Wide Procurement, and three offers were received. Marine Corps Systems Command, Quantico, Virginia, is the contracting activity (M67854-25-F-0156)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Lockheed Martin Corp.",
+        "contract_id": "N0001920C0032",
+        "location": "Fort Worth, Texas"
+      },
+      {
+        "name": "Lockheed Martin Aeronautics Co.",
+        "contract_id": "N0001920C0032",
+        "location": "Fort Worth, Texas"
+      }
+    ],
+    "purpose": "Provide qualification activities as well as planning, strategy, and coordination of repair initiatives in support of the Joint Strike Fighter F-35 Lightning II Australia product support provider component depot activation.",
+    "amount": 8311287.0,
+    "contracting_agency": {
+      "name": "Naval Air Systems Command",
+      "location": "Patuxent River, Maryland"
+    },
+    "contract_date": "2025-08-18",
+    "award_text": "Lockheed Martin Corp., Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded an $8,311,287 cost-plus-fixed-fee modification (P00057) to a previously awarded contract (N0001920C0032). This modification adds scope to provide qualification activities as well as planning, strategy, and coordination of repair initiatives in support of the Joint Strike Fighter F-35 Lighting II Australia product support provider component depot activation. Work will be performed in Fort Worth, Texas (65%); New South Wales, Australia (16%); Melbourne, Australia (9.5%); Victoria, Australia (6.5%); and Brisbane, Australia (3%), and is expected to be completed in August 2028. Foreign Military Sales customer funds in the amount of $8,311,287 will be obligated at time of award, none of which will expire at the end of the fiscal year. This contract action was not competed. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "ACG Systems Inc.",
+        "contract_id": "FA2330-25-C-B006",
+        "location": "Annapolis, Maryland"
+      }
+    ],
+    "purpose": "Purchase of Ground to Air Transmit Receive (GATR) system and test equipment for the Egyptian Air Force.",
+    "amount": 12311202.0,
+    "contracting_agency": {
+      "name": "Air Force Life Cycle Management",
+      "location": "Hanscom Air Force Base, Massachusetts"
+    },
+    "contract_date": "2025-08-18",
+    "award_text": "ACG Systems Inc., Annapolis, Maryland, was awarded a $12,311,202 firm-fixed-price contract for the Ground to Air Transmit Receive (GATR) system and test equipment for the Egyptian Air Force. This contract provides for the purchase of two GATR systems. Work will be performed at Annapolis, Maryland; the United Kingdom; and Egypt, and is expected to be complete by July 31, 2031. This contract involves Foreign Military Sales (FMS) to Egypt. This contract was a sole source acquisition. FMS funds in the amount of $11,960,184 are being obligated at the time of award. The Air Force Life Cycle Management, Hanscom Air Force Base, Massachusetts, is the contracting activity (FA2330-25-C-B006)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "JAAW Group LLC",
+        "contract_id": "FA0021-25-F-0006",
+        "location": "Sandy, Utah"
+      }
+    ],
+    "purpose": "Small, unmanned aircraft systems and manager support services. This contract provides contractor support for subject matter expertise providing analysis, research, training, operational airspace integration to implement and sustain the U.S. Special Operations Command and Air Force (including the Air National Guard, Space Force, and Air Force Reserves) unmanned aircraft systems programs, and sustainment of the mission critical web application and database known as the small, unmanned aircraft systems manager web application.",
+    "amount": 9105270.0,
+    "contracting_agency": {
+      "name": "The 765th Enterprise Sourcing Flight",
+      "location": "Hurlburt Field, Florida"
+    },
+    "contract_date": "2025-08-18",
+    "award_text": "JAAW Group LLC, Sandy, Utah, was awarded a $9,105,270 task order for small, unmanned aircraft systems and manager support services. This contract provides contractor support for subject matter expertise providing analysis, research, training, operational airspace integration to implement and sustain the U.S. Special Operations Command and Air Force (including the Air National Guard, Space Force, and Air Force Reserves) unmanned aircraft systems programs, and sustainment of the mission critical web application and database known as the small, unmanned aircraft systems manager web application. Work will be performed at Hurlburt Field, Florida, and is expected to be completed by Sept. 2, 2030. This contract was a competitive acquisition and five offers were received. Fiscal 2025 operation and maintenance appropriations funds in the amount of $1,115,185 are being obligated at the time of award. The 765th Enterprise Sourcing Flight, Hurlburt Field, Florida, is the contracting activity (FA0021-25-F-0006)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "McKesson Medical-Surgical Government Solutions LLC",
+        "contract_id": "SPE2DH-25-D-0022",
+        "location": "Henrico, Virginia"
+      }
+    ],
+    "purpose": "Multiple award contract for medical equipment and accessories for the Defense Logistics Agency Electronic Catalog",
+    "amount": 18000000.0,
+    "contracting_agency": {
+      "name": "Defense Logistics Agency Troop Support",
+      "location": "Philadelphia, Pennsylvania"
+    },
+    "contract_date": "2025-08-18",
+    "award_text": "UPDATE: McKesson Medical-Surgical Government Solutions LLC, Henrico, Virginia (SPE2DH-25-D-0022, $18,000,000) has been added as an awardee to the multiple award contract for medical equipment and accessories for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DH-21-R-0002 and awarded Feb. 10, 2022. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania."
   }
 ]

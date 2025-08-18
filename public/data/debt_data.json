@@ -159,5 +159,19 @@
     "intragovernmental": 7346845417317.28,
     "total_debt": 37045338077527.04,
     "pub_date": "Thu, 14 Aug 2025 20:15:23 GMT"
+  },
+  {
+    "date": "08/14/2025",
+    "public_debt": 29741150322937.1,
+    "intragovernmental": 7348280271417.48,
+    "total_debt": 37089430594354.58,
+    "pub_date": "Fri, 15 Aug 2025 20:15:28 GMT"
+  },
+  {
+    "date": "08/15/2025",
+    "public_debt": 29771410762345.73,
+    "intragovernmental": 7365871879422.01,
+    "total_debt": 37137282641767.74,
+    "pub_date": "Mon, 18 Aug 2025 20:15:26 GMT"
   }
 ]
