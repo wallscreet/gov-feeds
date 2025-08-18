@@ -47,7 +47,7 @@ export default function ContractList() {
   // Fuse.js setup
   const fuse = useMemo(() => {
     return new Fuse(sortedContracts, {
-      keys: ["contractors.name", "contracting_agency.name", "purpose"],
+      keys: ["contractors.name", "contracting_agency.name", "purpose", "award_text"],
       threshold: 0.3,
       ignoreLocation: true,
     });

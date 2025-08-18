@@ -67,7 +67,7 @@ export default function ContractCard({ contract }: ContractCardProps) {
           onClick={() => setExpanded(!expanded)}
           className="text-blue-600 hover:underline"
         >
-          {expanded ? "Hide Full Award" : "Show Full Award"}
+          {expanded ? "Hide Full Announcement" : "Show Full Announcement"}
         </button>
 
         {expanded && (
