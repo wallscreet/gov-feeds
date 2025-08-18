@@ -10,6 +10,7 @@ interface Contract {
   amount: number;
   contract_date: string;
   contracting_agency: { name: string };
+  award_text: string;
 }
 
 export default function ContractList() {
