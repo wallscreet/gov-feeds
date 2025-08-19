@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from 'react';
 import {
   LineChart,
   Line,
@@ -9,11 +9,11 @@ import {
   YAxis,
   Tooltip,
   ResponsiveContainer,
-} from "recharts";
+} from 'recharts';
 
 interface MSPRecord {
   Date: string;
-  "Median Home Sales Price": number;
+  'Median Home Sales Price': number;
   Year: number;
   Month: number;
   Day: number;
@@ -25,7 +25,7 @@ const MedianHomeSalesPriceChart: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("/api/mspus");
+        const res = await fetch('/api/mspus');
         const json: MSPRecord[] = await res.json();
 
         // Sort by date, just in case
@@ -43,40 +43,43 @@ const MedianHomeSalesPriceChart: React.FC = () => {
   }, []);
 
   return (
-    <ResponsiveContainer className="mx-auto" width="90%" height={400}>
-      <LineChart data={data} margin={{ top:30, left:30, right:30, bottom:30}}>
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis
-          dataKey="Date"
-          tickFormatter={(dateStr) => {
-            const d = new Date(dateStr);
-            return `${d.toLocaleString("default", { month: "short" })} ${d.getFullYear()}`;
-          }}
-        />
-        <YAxis
-          tickFormatter={(value) =>
-            `$${value.toLocaleString()}`
-          }
-        />
-        <Tooltip
-          formatter={(value: number) => `$${value.toLocaleString()}`}
-          labelFormatter={(dateStr) => {
-            const d = new Date(dateStr);
-            return d.toLocaleDateString(undefined, {
-              year: "numeric",
-              month: "long",
-            });
-          }}
-        />
-        <Line
-          type="monotone"
-          dataKey="Median Home Sales Price"
-          stroke="#2563eb"
-          strokeWidth={3}
-          dot={false}
-        />
-      </LineChart>
-    </ResponsiveContainer>
+    <div>
+      <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-4 pt-6">U.S. Median Home Sales Price</h1>
+      <ResponsiveContainer className="mx-auto" width="90%" height={400}>
+        <LineChart data={data} margin={{ top:10, left:30, right:30, bottom:30}}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis
+            dataKey="Date"
+            tickFormatter={(dateStr) => {
+              const d = new Date(dateStr);
+              return `${d.toLocaleString("default", { month: "short" })} ${d.getFullYear()}`;
+            }}
+          />
+          <YAxis
+            tickFormatter={(value) =>
+              `$${value.toLocaleString()}`
+            }
+          />
+          <Tooltip
+            formatter={(value: number) => `$${value.toLocaleString()}`}
+            labelFormatter={(dateStr) => {
+              const d = new Date(dateStr);
+              return d.toLocaleDateString(undefined, {
+                year: "numeric",
+                month: "long",
+              });
+            }}
+          />
+          <Line
+            type="monotone"
+            dataKey="Median Home Sales Price"
+            stroke="#2563eb"
+            strokeWidth={3}
+            dot={false}
+          />
+        </LineChart>
+      </ResponsiveContainer>
+    </div>
   );
 };
 

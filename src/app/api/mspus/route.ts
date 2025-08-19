@@ -1,10 +1,8 @@
-// app/api/mspus/route.ts
-import { NextResponse } from "next/server";
+import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const res = await fetch("https://gov-data-production.up.railway.app/mspus", {
-      // Prevent Next.js from caching stale data in dev
+    const res = await fetch("https://gov-data-production.up.railway.app/mspus?start_date=2006-01-01", {
       cache: "no-store",
     });
 
