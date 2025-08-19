@@ -7,9 +7,7 @@ export default function Header() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    // Ensure mobile menu state is set only on client
     useEffect(() => {
-        // Optionally set isMobileMenuOpen based on window size
         const handleResize = () => {
             setIsMobileMenuOpen(window.innerWidth < 768 ? false : isMobileMenuOpen);
         };

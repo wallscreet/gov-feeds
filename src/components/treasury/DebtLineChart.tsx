@@ -12,11 +12,11 @@ import {
 } from "recharts";
 
 interface DebtEntry {
-  date: string; // formatted MM/DD/YYYY
+  date: string;
   public_debt: number;
   intragovernmental: number;
   total_debt: number;
-  pub_date: string; // original date format from source
+  pub_date: string;
 }
 
 interface Props {
@@ -24,8 +24,6 @@ interface Props {
 }
 
 export default function DebtLineChart({ data }: Props) {
-  // Convert date strings to something more readable or just use as is
-  // Optionally reverse data if it's newest first
   const sortedData = [...data].sort(
     (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
   );
@@ -36,7 +34,7 @@ export default function DebtLineChart({ data }: Props) {
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="date" tick={{ fontSize: 12 }} />
         <YAxis
-          tickFormatter={(value) => (value / 1e12).toFixed(1) + "T"} // show trillions on y-axis
+          tickFormatter={(value) => (value / 1e12).toFixed(1) + "T"}
           tick={{ fontSize: 12 }}
         />
         <Tooltip

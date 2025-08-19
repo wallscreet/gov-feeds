@@ -38,7 +38,6 @@ export default function DebtToThePenny() {
         );
         const json = await res.json();
 
-        // Sort using string comparison on YYYY-MM-DD to avoid timezone issues
         const sorted = [...json.data].sort(
           (a, b) => (b.record_date > a.record_date ? 1 : -1)
         );
@@ -57,8 +56,6 @@ export default function DebtToThePenny() {
     {
       header: "Date",
       accessorKey: "record_date",
-      // cell: (info) =>
-      //   new Date(info.getValue() as string).toLocaleDateString("en-US"),
       cell: (info) => {
         const dateStr = info.getValue() as string;
         const [year, month, day] = dateStr.split('-').map(Number);
@@ -135,9 +132,6 @@ export default function DebtToThePenny() {
                   maximumFractionDigits: 0,
                 })
               }
-              // labelFormatter={(date) =>
-              //   new Date(date).toLocaleDateString("en-US")
-              // }
               labelFormatter={(date) => {
                 const [year, month, day] = date.split('-').map(Number);
                 return new Date(year, month - 1, day).toLocaleDateString("en-US");

@@ -65,7 +65,7 @@ export default function ContractCard({ contract }: ContractCardProps) {
       <div className="mt-2">
         <button
           onClick={() => setExpanded(!expanded)}
-          className="text-blue-600 hover:underline"
+          className="text-slate-800 hover:text-blue-800 hover:underline"
         >
           {expanded ? "Hide Full Announcement" : "Show Full Announcement"}
         </button>

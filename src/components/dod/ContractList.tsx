@@ -18,7 +18,6 @@ export default function ContractList() {
   const [searchTerm, setSearchTerm] = useState("");
   const [loading, setLoading] = useState(true);
 
-  // Fetch JSON on mount
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -35,7 +34,6 @@ export default function ContractList() {
     fetchData();
   }, []);
 
-  // Sort contracts by date
   const sortedContracts = useMemo(() => {
     return [...contracts].sort(
       (a, b) =>
@@ -44,7 +42,6 @@ export default function ContractList() {
     );
   }, [contracts]);
 
-  // Fuse.js setup
   const fuse = useMemo(() => {
     return new Fuse(sortedContracts, {
       keys: ["contractors.name", "contracting_agency.name", "purpose", "award_text"],
@@ -53,7 +50,6 @@ export default function ContractList() {
     });
   }, [sortedContracts]);
 
-  // Filter results
   const filteredContracts = useMemo(() => {
     if (!searchTerm.trim()) return sortedContracts;
     return fuse.search(searchTerm).map((result) => result.item);
