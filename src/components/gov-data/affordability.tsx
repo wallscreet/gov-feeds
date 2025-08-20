@@ -22,31 +22,45 @@ interface AffordabilityData {
 export default function HomeAffordabilityCard() {
   const [year, setYear] = useState<number>(2023);
   const [allData, setAllData] = useState<AffordabilityData[]>([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState<boolean>(false);
+  const [error, setError] = useState<string | null>(null);
 
-  // fetch once
   useEffect(() => {
     async function fetchData() {
       setLoading(true);
+      setError(null);
+
       try {
         const res = await fetch("/api/home-affordability");
         const json = await res.json();
+
+        if (!Array.isArray(json)) {
+          console.error("Unexpected API response:", json);
+          setAllData([]);
+          setError("API returned unexpected data format.");
+          return;
+        }
+
         setAllData(json);
       } catch (err) {
         console.error("Error fetching data:", err);
+        setAllData([]);
+        setError("Failed to fetch affordability data.");
       } finally {
         setLoading(false);
       }
     }
+
     fetchData();
   }, []);
 
-  // filter
-  const data = allData.find((d) => d.year === year);
+  const data: AffordabilityData | undefined = Array.isArray(allData)
+    ? allData.find((d) => d.year === year)
+    : undefined;
 
   return (
     <div className="flex flex-col items-center gap-6 p-6">
-      {/* Year Selector */}
+      {/* Year selector */}
       <div className="flex gap-2">
         <input
           type="number"
@@ -68,36 +82,34 @@ export default function HomeAffordabilityCard() {
         </button>
       </div>
 
-      {/* Data Card */}
+      {/* Status */}
       {loading && <p>Loading...</p>}
-      {data && (
+      {error && <p className="text-red-600">{error}</p>}
+
+      {/* Data card */}
+      {data ? (
         <div className="w-full max-w-md bg-white shadow-lg rounded-2xl p-6">
           <h2 className="text-xl font-bold mb-4 text-center">
             Home Affordability in {data.year}
           </h2>
           <ul className="space-y-2 text-gray-700">
             <li>
-              <strong>Median Home Price:</strong> $
-              {data.medianHomePrice.toLocaleString()}
+              <strong>Median Home Price:</strong> ${data.medianHomePrice.toLocaleString()}
             </li>
             <li>
-              <strong>Median Income:</strong> $
-              {data.medianIncome.toLocaleString()}
+              <strong>Median Income:</strong> ${data.medianIncome.toLocaleString()}
             </li>
             <li>
               <strong>Mortgage Rate:</strong> {data.mortgageRate.toFixed(2)}%
             </li>
             <li>
-              <strong>Monthly PI Payment:</strong> $
-              {data.monthlyPi.toLocaleString()}
+              <strong>Monthly PI Payment:</strong> ${data.monthlyPi.toLocaleString()}
             </li>
             <li>
-              <strong>Monthly PII Payment:</strong> $
-              {data.monthlyPii.toLocaleString()}
+              <strong>Monthly PII Payment:</strong> ${data.monthlyPii.toLocaleString()}
             </li>
             <li>
-              <strong>Mortgage Ratio:</strong>{" "}
-              {(data.mortgageRatio * 100).toFixed(1)}%
+              <strong>Mortgage Ratio:</strong> {(data.mortgageRatio * 100).toFixed(1)}%
             </li>
             <li>
               <strong>Monthly HOI Premium:</strong> $
@@ -108,7 +120,9 @@ export default function HomeAffordabilityCard() {
             </li>
           </ul>
         </div>
-      )}
+      ) : !loading && !error ? (
+        <p>No data found for year {year}.</p>
+      ) : null}
     </div>
   );
 }

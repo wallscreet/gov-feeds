@@ -1,5 +1,39 @@
 import { NextResponse } from "next/server";
 
+interface RawAffordabilityData {
+  Year: number;
+  "HOI PPI": number;
+  "Est HOI Premium": number;
+  CPI: number;
+  "Scaled Premium": number;
+  "Median Sales Price": number;
+  "Median Family Income": number;
+  "30yr Mtg Rate": number;
+  "Avg Loan Amount": number;
+  "Mtg PI Monthly": number;
+  "Mtg PI Annual": number;
+  "Mtg PII Annual": number;
+  "Mtg PII Monthly": number;
+  "Mtg Ratio": number;
+}
+
+interface AffordabilityData {
+  year: number;
+  hoiPpi: number;
+  estHoiPremium: number;
+  cpi: number;
+  scaledPremium: number;
+  medianHomePrice: number;
+  medianIncome: number;
+  mortgageRate: number;
+  avgLoanAmount: number;
+  monthlyPi: number;
+  annualPi: number;
+  annualPii: number;
+  monthlyPii: number;
+  mortgageRatio: number;
+}
+
 export async function GET() {
   try {
     const res = await fetch(
@@ -13,13 +47,13 @@ export async function GET() {
       );
     }
 
-    const raw = await res.json();
+    const raw: RawAffordabilityData[] = await res.json();
 
-    const data = raw.map((item: any) => ({
-      year: item["Year"],
+    const data: AffordabilityData[] = raw.map((item) => ({
+      year: item.Year,
       hoiPpi: item["HOI PPI"],
       estHoiPremium: item["Est HOI Premium"],
-      cpi: item["CPI"],
+      cpi: item.CPI,
       scaledPremium: item["Scaled Premium"],
       medianHomePrice: item["Median Sales Price"],
       medianIncome: item["Median Family Income"],
