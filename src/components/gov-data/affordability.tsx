@@ -54,6 +54,11 @@ export default function HomeAffordabilityCard() {
     fetchData();
   }, []);
 
+  const minYear = allData.length ? Math.min(...allData.map(d => d.year)) : 1971;
+  const maxYear = allData.length ? Math.max(...allData.map(d => d.year)) : 2023;
+
+  const clampYear = (y: number) => Math.min(Math.max(y, minYear), maxYear);
+
   const data: AffordabilityData | undefined = Array.isArray(allData)
     ? allData.find((d) => d.year === year)
     : undefined;
@@ -65,21 +70,30 @@ export default function HomeAffordabilityCard() {
         <input
           type="number"
           value={year}
-          onChange={(e) => setYear(Number(e.target.value))}
+          onChange={(e) => setYear(Number(e.target.value))} // Update year without clamping
+          onBlur={(e) => {
+            const newYear = clampYear(Number(e.target.value));
+            if (newYear !== Number(e.target.value)) {
+              alert(`Year must be between ${minYear} and ${maxYear}`);
+            }
+            setYear(newYear);
+          }}
           className="border rounded p-2 w-28"
         />
+
         <button
           className="bg-blue-600 text-white rounded px-4 py-2"
-          onClick={() => setYear((prev) => prev - 1)}
+          onClick={() => setYear(prev => clampYear(prev - 1))}
         >
           ◀ Prev
         </button>
         <button
           className="bg-blue-600 text-white rounded px-4 py-2"
-          onClick={() => setYear((prev) => prev + 1)}
+          onClick={() => setYear(prev => clampYear(prev + 1))}
         >
           Next ▶
         </button>
+
       </div>
 
       {/* Status */}
@@ -106,17 +120,17 @@ export default function HomeAffordabilityCard() {
               <strong>Monthly PI Payment:</strong> ${data.monthlyPi.toLocaleString()}
             </li>
             <li>
-              <strong>Monthly PII Payment:</strong> ${data.monthlyPii.toLocaleString()}
-            </li>
-            <li>
-              <strong>Mortgage Ratio:</strong> {(data.mortgageRatio * 100).toFixed(1)}%
-            </li>
-            <li>
               <strong>Monthly HOI Premium:</strong> $
               {(data.estHoiPremium / 12).toLocaleString(undefined, {
                 minimumFractionDigits: 2,
                 maximumFractionDigits: 2,
               })}
+            </li>
+            <li>
+              <strong>Monthly PII Payment:</strong> ${data.monthlyPii.toLocaleString()}
+            </li>
+            <li>
+              <strong>Mortgage Ratio:</strong> {(data.mortgageRatio * 100).toFixed(1)}%
             </li>
           </ul>
         </div>

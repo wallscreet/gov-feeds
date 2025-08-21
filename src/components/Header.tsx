@@ -17,10 +17,10 @@ export default function Header() {
     }, []);
 
     return (
-        <header className="fixed top-4 left-1/2 transform -translate-x-1/2 w-[80%] bg-[#355e93] text-white rounded-xl shadow-xl z-30">
-            <nav className="flex items-center justify-between py-2 px-6">
+        <header className="fixed top-2 left-1/2 transform -translate-x-1/2 w-[95%] bg-[#355e93] text-white rounded-xl shadow-xl z-30">
+            <nav className="flex items-center justify-between px-6">
                 <Link href="/" className="hover:text-slate-800">
-                    <div className="text-xl font-bold">GovFeeds</div>
+                    <div className="text-2xl font-bold p-4">GovFeeds</div>
                 </Link>
                 <button
                     className="md:hidden focus:outline-none"
