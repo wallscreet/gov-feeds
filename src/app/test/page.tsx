@@ -10,6 +10,7 @@ function page() {
       <MedianHomeSalesPriceChart/>
       <Mtg30RatesChart/>
       <Mtg15RatesChart/>
+      
     </div>
   )
 }
