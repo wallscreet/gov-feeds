@@ -13,3 +13,5 @@ Contracts_For_Aug._13_2025.json
 Contracts_For_Aug._14_2025.json
 Contracts_For_Aug._15_2025.json
 Contracts_For_Aug._18_2025.json
+Contracts_For_Aug._19_2025.json
+Contracts_For_Aug._20_2025.json

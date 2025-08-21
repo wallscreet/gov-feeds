@@ -3979,5 +3979,353 @@
     },
     "contract_date": "2025-08-18",
     "award_text": "UPDATE: McKesson Medical-Surgical Government Solutions LLC, Henrico, Virginia (SPE2DH-25-D-0022, $18,000,000) has been added as an awardee to the multiple award contract for medical equipment and accessories for the Defense Logistics Agency Electronic Catalog, issued against solicitation SPE2DH-21-R-0002 and awarded Feb. 10, 2022. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Acts Group Inc.",
+        "contract_id": "FA4419-25-D-0002",
+        "location": "Virginia Beach, Virginia"
+      },
+      {
+        "name": "New Dominion Construction LLC",
+        "contract_id": "FA4419-25-D-0003",
+        "location": "Dumfries, Virginia"
+      },
+      {
+        "name": "COHO Construction Management LLC",
+        "contract_id": "FA4419-25-D-0004",
+        "location": "Anchorage, Alaska"
+      },
+      {
+        "name": "Marrero, Couvillion & Associates LLC",
+        "contract_id": "FA4419-25-D-0005",
+        "location": "Baton Rouge, Louisiana"
+      },
+      {
+        "name": "Gideon Red JV LLC",
+        "contract_id": "FA4419-25-D-0006",
+        "location": "Kenner, Louisiana"
+      },
+      {
+        "name": "PAM WCI JV LLC",
+        "contract_id": "FA4419-25-D-0007",
+        "location": "Midwest City, Oklahoma"
+      }
+    ],
+    "purpose": "This contract provides for a broad range of maintenance, repair, and minor construction projects on real property at Altus Air Force Base, Oklahoma; Vance AFB, Oklahoma; Sheppard AFB, Texas; and Ebbing Air National Guard Base, Arkansas.",
+    "amount": 95000000.0,
+    "contracting_agency": {
+      "name": "97th Contracting Flight",
+      "location": "Altus AFB, Oklahoma"
+    },
+    "contract_date": "2025-08-19",
+    "award_text": "Acts Group Inc., Virginia Beach, Virginia (FA4419-25-D-0002); New Dominion Construction LLC, Dumfries, Virginia (FA4419-25-D-0003); COHO Construction Management LLC, Anchorage, Alaska (FA4419-25-D-0004); Marrero, Couvillion & Associates LLC, Baton Rouge, Louisiana (FA4419-25-D-0005); Gideon Red JV LLC, Kenner, Louisiana (FA4419-25-D-0006); and PAM WCI JV LLC, Midwest City, Oklahoma (FA4419-25-D-0007), were awarded a multi-year $95,000,000 indefinite-delivery/indefinite-quantity construction contract. This contract provides for a broad range of maintenance, repair, and minor construction projects on real property at Altus Air Force Base, Oklahoma; Vance AFB, Oklahoma; Sheppard AFB, Texas; and Ebbing Air National Guard Base, Arkansas, and is expected to be completed August 2030. This contract was a competitive acquisition with 14 offers received. Fiscal 2025 military construction funds in the total amount of $7,603,102 will be obligated at the time of award. The 97th Contracting Flight, Altus AFB, Oklahoma, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "JE DUNN Construction Co.",
+        "contract_id": "FA8903-19-C-0021",
+        "location": "Kansas City, Missouri"
+      }
+    ],
+    "purpose": "Repair of the Cadet Chapel at the Air Force Academy in Colorado Springs, Colorado",
+    "amount": 88105334.0,
+    "contracting_agency": {
+      "name": "The 772nd Enterprise Sourcing Squadron",
+      "location": "San Antonio, Texas"
+    },
+    "contract_date": "2025-08-19",
+    "award_text": "JE DUNN Construction Co., Kansas City, Missouri, has been awarded a $88,105,334 firm-fixed-price modification (P00018) to previously awarded (FA8903-19-C-0021) for repair of the Cadet Chapel at the Air Force Academy in Colorado Springs, Colorado.  The modification brings the total cumulative face value of the contract from $246,620,551 to $334,725,885. Work will be performed at the U.S. Air Force Academy, Colorado Springs, Colorado, and is expected to be completed by Nov. 13, 2028. Fiscal 2025 operations and maintenance appropriations funds in the amount of $88,105,334 are being obligated at the time of award. The 772nd Enterprise Sourcing Squadron, San Antonio, Texas, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Techni-Con Inc.",
+        "contract_id": "FA5240-25-F-0112",
+        "location": "Mangilao, Guam"
+      }
+    ],
+    "purpose": "Repair underground power, including replacement of the underground electrical feeders, duct banks, switches, and transformers for the Munitions Storage Area, Andersen AFB, Guam.",
+    "amount": 7995000.0,
+    "contracting_agency": {
+      "name": "36th Contracting Squadron",
+      "location": "Andersen AFB, Guam"
+    },
+    "contract_date": "2025-08-19",
+    "award_text": "Techni-Con Inc., Mangilao, Guam, was awarded a $7,995,000 firm-fixed-price contract to repair underground power. This contract provides for replacement of the underground electrical feeders, duct banks, switches, and transformers for the Munitions Storage Area, Andersen AFB, Guam. Work will be performed at Andersen Air Force Base, Guam, and is expected to be completed by March 22, 2027. This contract was a competitive acquisition, and nine offers were received. Fiscal 2025 operations and maintenance appropriation funds in the amount of $7,995,000 are being obligated at the time of award. The 36th Contracting Squadron, Andersen AFB, Guam, is the contracting activity (FA5240-24-D-0009 - FA5240-25-F-0112)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "The Boeing Co.",
+        "contract_id": "N6134025F0004",
+        "location": "St. Louis, Missouri"
+      }
+    ],
+    "purpose": "Modify aircrew training devices and deliver the P-8A technical refresh digital video recording system solution.",
+    "amount": 22319015.0,
+    "contracting_agency": {
+      "name": "Naval Air Warfare Center Training Systems Division",
+      "location": "Orlando, Florida"
+    },
+    "contract_date": "2025-08-19",
+    "award_text": "The Boeing Co., St. Louis, Missouri, is awarded a $22,319,015 firm-fixed-price order (N6134025F0004) against a previously issued basic ordering agreement (N0001921G0006). This order is to modify aircrew training devices and deliver the P-8A technical refresh digital video recording system solution. Work will be performed in Jacksonville, Florida (50%); Oak Harbor, Washington (30%); Edinburgh, Australia (15%); and Richardson, Texas (5%), and is expected to be completed in November 2027. Fiscal 2025 aircraft procurement (Navy) funds in the amount of $17,637,076 and Royal Australian Air Force funds in the amount of $4,681,939 will be obligated at the time of award, $17,637,076 of which will expire at the end of the current fiscal year. This order was not competed. Naval Air Warfare Center Training Systems Division, Orlando, Florida, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "General Dynamics Mission Systems",
+        "contract_id": "N00024-25-C-6260",
+        "location": "Manassas, Virginia"
+      }
+    ],
+    "purpose": "shipset production, engineering, and installation support to perform software and hardware systems development, production, and platform installations",
+    "amount": 15331729.0,
+    "contracting_agency": {
+      "name": "Naval Sea Systems Command",
+      "location": "Washington, D.C."
+    },
+    "contract_date": "2025-08-19",
+    "award_text": "General Dynamics Mission Systems, Manassas, Virginia, is awarded a $15,331,729 cost-plus-incentive fee, cost-plus-fixed fee, and cost only contract for shipset production, engineering, and installation support to perform software and hardware systems development, production, and platform installations. This contract includes options which, if exercised, would bring the cumulative value to $91,140,416. Work will be performed in Manassas, Virginia (30%); Groton, Connecticut (25%); Las Vegas, Nevada (25%); Port Orchard, Washington (10%); Chesapeake, Virginia (4%); Pearl Harbor, Hawaii (2%); San Diego, California (2%); and Kings Bay, Georgia (2%), and is expected to be completed by August 2026. If all options are exercised, work will continue through August 2030. Fiscal 2025 other procurement (Navy) funds in the amount of $999,715 (83%); and fiscal 2020 shipbuilding and conversion (Navy) funds in the amount of $208,306 (17%), will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured pursuant to 10 U.S. Code 3204(a)(5). Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-25-C-6260)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Orion Marine Construction",
+        "contract_id": "W912HY-25-C-A001",
+        "location": "Tampa, Florida"
+      }
+    ],
+    "purpose": "Maintenance dredging in the Galveston International Waterway",
+    "amount": 13771750.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Galveston, Texas"
+    },
+    "contract_date": "2025-08-19",
+    "award_text": "Orion Marine Construction, Tampa, Florida, was awarded a firm-fixed-price contract for maintenance dredging in the Galveston International Waterway. The amount of this action is $13,771,750, with a total cumulative face value of $21,992,750. Bids were solicited via the internet with four received. Work will be performed in Calhoun, Texas, with an estimated completion date of Jan. 19, 2026. Fiscal 2025 operation and maintenance, Army National Guard funds in the amount of $13,771,750 were obligated at the time of the award. U.S. Army Corps of Engineers, Galveston, Texas, is the contracting activity (W912HY-25-C-A001)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "ACM Elite",
+        "contract_id": "SPE4A7-25-D-0333",
+        "location": "Stevensville, Montana"
+      }
+    ],
+    "purpose": "for B-52 aircraft engine hanger beams",
+    "amount": 9999999.0,
+    "contracting_agency": {
+      "name": "Defense Logistics Agency Aviation",
+      "location": "Richmond, Virginia"
+    },
+    "contract_date": "2025-08-19",
+    "award_text": "ACM Elite, Stevensville, Montana, has been awarded a maximum $9,999,999 firm-fixed-price, indefinite-quantity contract for B-52 aircraft engine hanger beams. This award is replacing contract SPE4A7-25-D-0297, which was previously announced as awarded July 18, 2025, to Infinity Fabrication. This was a competitive acquisition with two responses received. This is a five-year contract with no option periods. The performance completion date is Aug. 18, 2030. Using military service is Air Force. Type of appropriation is fiscal 2025 through 2030 defense working capital funds. The contracting activity is the Defense Logistics Agency Aviation, Richmond, Virginia (SPE4A7-25-D-0333)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Trust Automation Inc.",
+        "contract_id": "FA8750-25-D-B002",
+        "location": "San Luis Obispo, California"
+      }
+    ],
+    "purpose": "This contract provides for rapid research, development, prototyping, demonstration, evaluation, production, and transition of unmanned aircraft system and counter-unmanned aircraft systems capabilities.",
+    "amount": 490000000.0,
+    "contracting_agency": {
+      "name": "Air Force Research Laboratory",
+      "location": "Rome, New York"
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "Trust Automation Inc., San Luis Obispo, California, was awarded a maximum $490,000,000 ordering amount cost-plus-fixed-fee, completion, firm-fixed-price, indefinite-delivery/indefinite-quantity contract for software, hardware, and reports. This contract provides for rapid research, development, prototyping, demonstration, evaluation, production, and transition of unmanned aircraft system and counter-unmanned aircraft systems capabilities. Work will be performed at San Luis Obispo, California, and is expected to be completed by Aug. 20, 2030. This contract was a sole source acquisition. Fiscal 2025 procurement funds in the amount of $20,315,558 are being obligated under the first task order at time of award. The Air Force Research Laboratory, Rome, New York, is the contracting activity (FA8750-25-D-B002)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "General Dynamics Information Technology",
+        "contract_id": "FA2384-25-C-B045",
+        "location": "Falls Church, Virginia"
+      }
+    ],
+    "purpose": "Bioeffects research of directed energy exposures to deliver accurate, evidence-based information to Department of Defense and industry stakeholders, national and international health and safety standards committees, and the public.",
+    "amount": 40394279.0,
+    "contracting_agency": {
+      "name": "Air Force Research Laboratory, Warfighter Readiness and Interface Contracting Section",
+      "location": "Wright-Patterson Air Force Base, Ohio"
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "General Dynamics Information Technology, Falls Church, Virginia, was awarded a $40,394,279 Cost-Plus-Fixed-Fee contract for bioeffects research of directed energy exposures. This contract provides for research relevant to directed energy-based devices and systems to deliver accurate, evidence-based information to Department of Defense and industry stakeholders, national and international health and safety standards committees, and the public. Work will be performed at Joint Base San-Antonio, Texas, and is expected to be completed by Aug. 25, 2028, with two additional option years. Fiscal 2025 research, development, test and evaluation funds in the amount of $846,000 will be obligated at the time of award. The Air Force Research Laboratory, Warfighter Readiness and Interface Contracting Section, Wright-Patterson Air Force Base, Ohio is the contracting Activity (FA2384-25-C-B045)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "BFBC LLC",
+        "contract_id": "W912PL-25-C-A004",
+        "location": "Bozeman, Montana"
+      }
+    ],
+    "purpose": "design and construction of new protective barrier fencing, access gate installations, and roadway improvements",
+    "amount": 174000000.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "San Francisco, California"
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "BFBC LLC, Bozeman, Montana, was awarded a firm-fixed-price contract for design and construction of new protective barrier fencing, access gate installations, and roadway improvements. The amount of this action is $174,000,000 with a cumulative total face value of $230,895,000. Bids were solicited via the internet with four received. Work will be performed in San Luis, Arizona, with an estimated completion date of Aug. 18, 2026. Fiscal 2021 Section 2803 emergency military construction, Army funds; fiscal 2021 Section 2803 emergency military construction, Air Force funds; fiscal 2021 Section 2803 emergency military construction, Navy funds; fiscal 2021 Section 2803 emergency military construction; and fiscal 2021 Defense-wide funds in the amount of $174,000,000, were obligated at the time of the award. U.S. Army Corps of Engineers, San Francisco, California, is the contracting activity (W912PL-25-C-A004).  (Awarded on Aug. 15, 2025)"
+  },
+  {
+    "contractors": [
+      {
+        "name": "Vigor Works LLC",
+        "contract_id": "W912CH-25-D-0063",
+        "location": "Vancouver, Washington"
+      }
+    ],
+    "purpose": "Maneuver Support Vessel Light systems technical support services",
+    "amount": 62399789.0,
+    "contracting_agency": {
+      "name": "Army Contracting Command",
+      "location": "Detroit Arsenal, Michigan"
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "Vigor Works LLC, Vancouver, Washington, was awarded a cost-plus-fixed-fee contract for Maneuver Support Vessel Light systems technical support services. The amount of this action is $62,399,789. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 19, 2030. Army Contracting Command, Detroit Arsenal, Michigan, is the contracting activity (W912CH-25-D-0063)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Automation Innovations LLC,*",
+        "contract_id": "W91RUS-25-C-A032",
+        "location": "Tampa, Florida"
+      }
+    ],
+    "purpose": "field service representative support for Microwave Line of Sight",
+    "amount": 44328438.0,
+    "contracting_agency": {
+      "name": "Army Contracting Command",
+      "location": "Fort Huachuca, Arizona"
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "Automation Innovations LLC,* Tampa, Florida, was awarded a firm-fixed-price contract for field service representative support for Microwave Line of Sight. The amount of this action is $44,328,438. Bids were solicited via the internet with two received. Work will be performed in Kuwait, with an estimated completion date of Aug. 31, 2030. Fiscal 2010 operation and maintenance, Army funds in the amount of $44,328,438 were obligated at the time of the award. Army Contracting Command, Fort Huachuca, Arizona, is the contracting activity (W91RUS-25-C-A032)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Raytheon Intelligence & Space",
+        "contract_id": "W909MY-23-C-0004",
+        "location": "McKenney, Texas"
+      }
+    ],
+    "purpose": "manufacturing and delivery of B-Kits Thermal receiver units",
+    "amount": 35059667.0,
+    "contracting_agency": {
+      "name": "Army Contracting Command",
+      "location": "Aberdeen Proving Ground, Maryland"
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "Raytheon Intelligence & Space (Raytheon), McKenney, Texas, was awarded a $35,059,667 modification (P00017) to contract W909MY-23-C-0004 for manufacturing and delivery of B-Kits Thermal receiver units. The modification brings the total cumulative face value of the contract to $35,059,667. Work will be performed in McKenney, Texas, with an estimated completion date of May 30, 2028. Fiscal 2025 other procurement, Army funds in the amount of $35,059,667 were obligated at the time of the award. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "WisEngineering LLC",
+        "contract_id": "W15QKN-25-F-A285",
+        "location": "Denville, New Jersey"
+      }
+    ],
+    "purpose": "program management, facility management, property management, administrative, logistics, security, software engineering, systems administration, and technical support",
+    "amount": 20536725.0,
+    "contracting_agency": {
+      "name": "Army Contracting Command",
+      "location": "Newark, New Jersey"
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "WisEngineering LLC,* Denville, New Jersey, was awarded a cost-plus-fixed-fee contract for program management, facility management, property management, administrative, logistics, security, software engineering, systems administration, and technical support. The amount of this action is $20,536,725. Bids were solicited via the internet with four received. Work will be performed at Picatinny Arsenal, New Jersey, with an estimated completion date of Aug. 19, 2028. Fiscal 2025 research, development, test and evaluation, Army funds in the amount of $443,811 were obligated at the time of the award. Army Contracting Command, Newark, New Jersey, is the contracting activity (W15QKN-25-F-A285)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Pond Constructors Inc.",
+        "contract_id": "W912DY-24-F-0264",
+        "location": "Peachtree Corners, Georgia"
+      }
+    ],
+    "purpose": "to perform recurring maintenance, and minor and emergency repairs at designated Defense Logistics Agency Energy fueling sites.",
+    "amount": 12113841.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers' Engineering and Support Center",
+      "location": "Huntsville, Alabama"
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "Pond Constructors Inc., Peachtree Corners, Georgia, was awarded a $12,113,841 modification (P00002) to contract W912DY-24-F-0264 to perform recurring maintenance, and minor and emergency repairs at designated Defense Logistics Agency Energy fueling sites. The modification brings the total cumulative face value of the contract to $71,788,728. Work will be performed in Fort Smith, Little Rock Air Base, White Hall, and North Little Rock, Arkansas; Peachtree Corners, Georgia; Bossier Parish, and Pineville, Louisiana; Orogrande, New Mexico; Altus, Fort Sill, Braggs, Lexington, McAlester, Tulsa, Enid, and Oklahoma City, Oklahoma; Abilene, El Paso, Fort Sam Houston, Houston, Killeen, Laughlin Air Force Base, Randolph, Red River Army Depot, San Angelo, San Antonio, and Wichita Falls, Texas, with an estimated completion date of Sept. 9, 2025. Fiscal 2025 revolving funds in the amount of $12,113,841 were obligated at the time of the award. U.S. Army Corps of Engineers' Engineering and Support Center, Huntsville, Alabama, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Great Lakes Dredge & Dock Co. LLC",
+        "contract_id": "W9127S-22-D-0026",
+        "location": "Houston, Texas"
+      }
+    ],
+    "purpose": "station dredging",
+    "amount": 46859160.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Little Rock, Arkansas"
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "Great Lakes Dredge & Dock Co. LLC, Houston, Texas, was awarded a $11,687,740 modification (P00004) to contract W9127S-22-D-0026 for station dredging. The modification brings the total cumulative face value of the contract to $46,859,160. Bids were solicited via the internet with two received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 19, 2006. U.S. Army Corps of Engineers, Little Rock, Arkansas, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Black Hills Ammunition Inc.",
+        "contract_id": "N0016425DJN20",
+        "location": "Rapid City, South Dakota"
+      }
+    ],
+    "purpose": "for 6.5mm Creedmoor cartridge special ball long range ammunition, Department of Defense Identification Code AC58",
+    "amount": 40000000.0,
+    "contracting_agency": {
+      "name": "Naval Surface Warfare Center, Crane Division",
+      "location": "Crane, Indiana"
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "Black Hills Ammunition Inc.,* Rapid City, South Dakota, is being awarded a $40,000,000 firm-fixed price, indefinite-delivery/indefinite-quantity contract for 6.5mm Creedmoor cartridge special ball long range ammunition, Department of Defense Identification Code AC58. This contract does not include options. Work will be performed in Rapid City, South Dakota, and is expected to be completed by August 2030. Fiscal 2025 procurement of ammunition (Navy and Marine Crops) funding in the amount of $968,348 (2%) will be obligated at the time of award, which will not expire at the end of the current fiscal year. This contract was competitively procured on the basis of 100% Small Business Set-Aside and six offers were received via the procurement integrated enterprise environment solicitation module. Naval Surface Warfare Center, Crane Division, Crane, Indiana, is the contract activity (N0016425DJN20)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "General Dynamics Mission Systems",
+        "contract_id": "N00024-25-C-6260",
+        "location": "Manassas, Virginia"
+      }
+    ],
+    "purpose": "Shipset production, engineering, and installation support to perform software and hardware systems development, production, and platform installations.",
+    "amount": 15331729.0,
+    "contracting_agency": {
+      "name": "Naval Sea Systems Command",
+      "location": "Washington, D.C."
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "General Dynamics Mission Systems, Manassas, Virginia, is awarded a $15,331,729 cost-plus-incentive fee, cost-plus-fixed fee, and cost only contract for shipset production, engineering, and installation support to perform software and hardware systems development, production, and platform installations. This contract includes options which, if exercised, would bring the cumulative value to $91,140,416. Work will be performed in Manassas, Virginia (30%); Groton, Connecticut (25%); Las Vegas, Nevada (25%); Port Orchard, Washington (10%); Chesapeake, Virginia (4%); Pearl Harbor, Hawaii (2%); San Diego, California (2%); and Kings Bay, Georgia (2%), and is expected to be completed by August 2026. If all options are exercised, work will continue through August 2030. Fiscal 2025 other procurement (Navy) funds in the amount of $999,715 (83%); and fiscal 2020 shipbuilding and conversion (Navy) funds in the amount of $208,306 (17%), will be obligated at time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured pursuant to 10 U.S. Code 3204(a)(5). Naval Sea Systems Command, Washington, D.C., is the contracting activity (N00024-25-C-6260)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Clarke Power Services Inc.",
+        "contract_id": "SPRDL1-25-D-0050",
+        "location": "Henderson, Kentucky"
+      }
+    ],
+    "purpose": "Family of Medium Tactical Vehicle transmissions",
+    "amount": 30595255.0,
+    "contracting_agency": {
+      "name": "Defense Logistics Agency Land and Maritime",
+      "location": "Warren, Michigan"
+    },
+    "contract_date": "2025-08-20",
+    "award_text": "Clarke Power Services Inc., Henderson, Kentucky, has been awarded an estimated $30,595,255 firm-fixed-price indefinite-delivery/indefinite-quantity contract for Family of Medium Tactical Vehicle transmissions. A delivery order (SPRDL1-25-F-0172) was also executed at the time of award. This was a competitive acquisition with one response received. This is a three-year contract with no option periods. The ordering period end date is Aug. 18, 2028. Using military service is Army. Type of appropriation is fiscal 2025 through 2028 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Warren, Michigan (SPRDL1-25-D-0050)."
   }
 ]

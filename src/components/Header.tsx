@@ -42,7 +42,7 @@ export default function Header() {
                             Feeds🔻
                         </button>
                         {isDropdownOpen && (
-                            <ul className="bg-white rounded-xl shadow-lg w-66 z-40 border border-[#355e93] md:absolute md:w-64">
+                            <ul className="bg-white rounded-xl shadow-xl w-60 border border-[#355e93] md:absolute md:w-64">
                                 <li>
                                     <Link href="/congress">
                                         <div className="block text-slate-600 px-4 py-2 hover:bg-[#4a7ab5] hover:text-white">US Congress</div>
@@ -50,8 +50,7 @@ export default function Header() {
                                 </li>
                                 <li>
                                     <Link href="/frb">
-                                    
-                                    <div className="block text-slate-600 px-4 py-2 hover:bg-[#4a7ab5] hover:text-white">Federal Reserve Board</div>
+                                        <div className="block text-slate-600 px-4 py-2 hover:bg-[#4a7ab5] hover:text-white">Federal Reserve Board</div>
                                     </Link>
                                 </li>
                                 <li>
