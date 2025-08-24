@@ -158,7 +158,9 @@ class DOD_RSS(BaseRSS):
         """ Contract Announcements
         Returns a list of entries containing links for daily contract announcements.
         """
-        contracts_rss_url = self.get_url_by_name("Contract Announcements")
+        #contracts_rss_url = self.get_url_by_name("Contract Announcements")
+        contracts_rss_url = "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=400&Site=945&max=10"
+        print(f"URL: {contracts_rss_url}")
         entries = feedparser.parse(contracts_rss_url)
 
         return entries

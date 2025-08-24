@@ -4327,5 +4327,730 @@
     },
     "contract_date": "2025-08-20",
     "award_text": "Clarke Power Services Inc., Henderson, Kentucky, has been awarded an estimated $30,595,255 firm-fixed-price indefinite-delivery/indefinite-quantity contract for Family of Medium Tactical Vehicle transmissions. A delivery order (SPRDL1-25-F-0172) was also executed at the time of award. This was a competitive acquisition with one response received. This is a three-year contract with no option periods. The ordering period end date is Aug. 18, 2028. Using military service is Army. Type of appropriation is fiscal 2025 through 2028 Army working capital funds. The contracting activity is the Defense Logistics Agency Land and Maritime, Warren, Michigan (SPRDL1-25-D-0050)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Lockheed Martin Corporation Missiles and Fire Control",
+        "contract_id": "HQ0147-17-C-0032",
+        "location": "Dallas, Texas"
+      }
+    ],
+    "purpose": "Production of Terminal High Altitude Area Defense (THAAD) Interceptors and components to support the U.S. government",
+    "amount": 2063197215.0,
+    "contracting_agency": {
+      "name": "Missile Defense Agency",
+      "location": "Huntsville, Alabama"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "Lockheed Martin Corporation Missiles and Fire Control, Dallas, Texas, is being awarded a $2,063,197,215 modification (P00105) to a previously awarded contract (HQ0147-17-C-0032) for the production of Terminal High Altitude Area Defense (THAAD) Interceptors to support the U.S. government. The total value of this contract is increased from $8,353,586,643 to $10,416,783,858. Under this modification, the contractor will produce THAAD components under fixed-price incentive (firm-target) contract line-item numbers. The work will be performed in Dallas, Texas; Sunnyvale, California; Troy, Alabama; and Camden, Arkansas, with an expected completion date Dec. 1, 2029. One offer was solicited, and one offer was received. Fiscal 2024 and fiscal 2025 procurement funds in the amount of $284,917,283 are being obligated at time of award. The Missile Defense Agency, Huntsville, Alabama, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "General Dynamics Information Technology",
+        "contract_id": "HC1028-15-D-0007",
+        "location": "Falls Church, Virginia"
+      }
+    ],
+    "purpose": "to provide communications systems acquisition, integration, installation, operations, and maintenance in support of U.S. Air Forces Central Command (USAFCENT) deployed mission requirements.",
+    "amount": 98000000.0,
+    "contracting_agency": {
+      "name": "Defense Information Technology Contracting Organization",
+      "location": "Scott Air Force Base, Illinois"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "General Dynamics Information Technology, Falls Church, Virginia, was awarded a $98,000,000 contract modification (P00030) to extend the ordering period and ceiling value to a previously awarded competitive, single award, indefinite-delivery/indefinite-quantity contract (HC1028-15-D-0007) to provide communications systems acquisition, integration, installation, operations, and maintenance in support of U.S. Air Forces Central Command (USAFCENT) deployed mission requirements. The ordering period is extended to Sept. 8, 2026, and the lifecycle value of this contract action is increased by $98,000,000. The total lifecycle value of the contract is $814,000,000. Performance will be at USAFCENT locations throughout Southwest Asia. The Defense Information Technology Contracting Organization, Scott Air Force Base, Illinois, is the contracting activity. (Awarded June 23, 2025)"
+  },
+  {
+    "contractors": [
+      {
+        "name": "Whitman Requardt and Associates LLP",
+        "contract_id": "W912DR-20-D-0006",
+        "location": "Baltimore, Maryland"
+      }
+    ],
+    "purpose": "architect-engineer services",
+    "amount": 90000000.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Baltimore, Maryland"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "Whitman Requardt and Associates LLP, Baltimore, Maryland, was awarded a $90,000,000 modification (P00005) to contract W912DR-20-D-0006 for architect-engineer services. The modification brings the total cumulative face value of the contract to $90,000,000. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of July 30, 2026. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Burns and McDonnell Engineering Co. Inc.",
+        "contract_id": "W912DR-20-D-0002",
+        "location": "Arlington, Virginia"
+      }
+    ],
+    "purpose": "architect-engineer services",
+    "amount": 90000000.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Baltimore, Maryland"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "Burns and McDonnell Engineering Co. Inc., Arlington, Virginia, was awarded a $90,000,000 modification (P00007) to contract W912DR-20-D-0002 for architect-engineer services. The modification brings the total cumulative face value of the contract to $90,000,000. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of July 30, 2026. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "AECOM Technical Services Inc.",
+        "contract_id": "W912DR-20-D-0001",
+        "location": "Los Angeles, California"
+      }
+    ],
+    "purpose": "architect-engineer services",
+    "amount": 90000000.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Baltimore, Maryland"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "AECOM Technical Services Inc., Los Angeles, California, was awarded a $90,000,000 modification (P00004) to contract W912DR-20-D-0001 for architect-engineer services. The modification brings the total cumulative face value of the contract to $90,000,000. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of July 30, 2026. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Stantec Consulting Services Inc.",
+        "contract_id": "W912DR-20-D-0005",
+        "location": "Raleigh, North Carolina"
+      }
+    ],
+    "purpose": "architect-engineer services",
+    "amount": 90000000.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Baltimore, Maryland"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "Stantec Consulting Services Inc., Raleigh, North Carolina, was awarded a $90,000,000 modification (P00006) to contract W912DR-20-D-0005 for architect-engineer services. The modification brings the total cumulative face value of the contract to $90,000,000. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of July 30, 2026. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "HDR Engineering Inc.",
+        "contract_id": "W912DR-20-D-0004",
+        "location": "Woodcliff Lake, New Jersey"
+      }
+    ],
+    "purpose": "architect-engineer services",
+    "amount": 90000000.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Baltimore, Maryland"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "HDR Engineering Inc., Woodcliff Lake, New Jersey, was awarded a $90,000,000 modification (P00008) to contract W912DR-20-D-0004 for architect-engineer services. The modification brings the total cumulative face value of the contract to $90,000,000. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of July 30, 2026. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Gf-D Design Partners JV",
+        "contract_id": "W912DR-20-D-0003",
+        "location": "Fairfax, Virginia"
+      }
+    ],
+    "purpose": "architect-engineer services",
+    "amount": 90000000.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Baltimore, Maryland"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "Gf-D Design Partners JV, Fairfax, Virginia, was awarded a $90,000,000 modification (P00004) to contract W912DR-20-D-0003 for architect-engineer services. The modification brings the total cumulative face value of the contract to $90,000,000. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of July 30, 2026. U.S. Army Corps of Engineers, Baltimore, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "The Boeing Co.",
+        "contract_id": "W58RGZ-24-C-0036",
+        "location": "Mesa, Arizona"
+      }
+    ],
+    "purpose": "maintenance augmentation team services",
+    "amount": 11024012.0,
+    "contracting_agency": {
+      "name": "Army Contracting Command",
+      "location": "Redstone Arsenal, Alabama"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "The Boeing Co., Mesa, Arizona, was awarded an $11,024,012 modification (P00010) to contract W58RGZ-24-C-0036 for maintenance augmentation team services. The modification brings the total cumulative face value of the contract to $11,024,012. Work will be performed in Mesa, Arizona, with an estimated completion date of July 31, 2026. Fiscal 2025 Foreign Military Sales funds (Qatar) in the amount of $11,024,012 were obligated at the time of the award. Army Contracting Command, Redstone Arsenal, Alabama, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Viasat Inc.",
+        "contract_id": "FA8807-25-F-B017",
+        "location": "Carlsbad, California"
+      },
+      {
+        "name": "Northrop Grumman Space Systems",
+        "contract_id": "FA8807-25-F-B018",
+        "location": "Dulles, Virginia"
+      },
+      {
+        "name": "Astranis Space Technologies Corp.",
+        "contract_id": "FA8807-25-F-B019",
+        "location": "San Francisco, California"
+      },
+      {
+        "name": "Intelsat General Communications LLC",
+        "contract_id": "FA8807-25-F-B020",
+        "location": "McLean, Virginia"
+      },
+      {
+        "name": "The Boeing Co.",
+        "contract_id": "FA8807-25-F-B021",
+        "location": "El Segundo, California"
+      }
+    ],
+    "purpose": "for the procurement of design and demonstration in support of the Protected Tactical Satellite-Global program",
+    "amount": 37296196.0,
+    "contracting_agency": {
+      "name": "Space Systems Command",
+      "location": "Los Angeles Air Force Base"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "Viasat Inc., Carlsbad, California (FA8807-25-F-B017); Northrop Grumman Space Systems, Dulles, Virginia (FA8807-25-F-B018); Astranis Space Technologies Corp., San Francisco, California (FA8807-25-F-B019); Intelsat General Communications LLC, McLean, Virginia (FA8807-25-F-B020); and The Boeing Co., El Segundo, California (FA8807-25-F-B021), have been awarded combined $37,296,196 firm-fixed-price, multiple-award, indefinite‐delivery/indefinite‐quantity contracts for the procurement of design and demonstration in support of the Protected Tactical Satellite-Global program. Work will be performed at the listed contractors' locations and is expected to be completed by Jan. 31, 2026. These contracts were a competitive acquisition and eight offers were received. Fiscal 2025 research, development, test and evaluations funds in the amount of $37,296,196 are being obligated at the time of award. The Space Systems Command, Los Angeles Air Force Base, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Sea Pac Engineering Inc.",
+        "contract_id": "FA5240-25-C-0005",
+        "location": "Los Angeles, California"
+      }
+    ],
+    "purpose": "Design and full repair of the Palau Dorm B25016 for troop housing construction at Andersen Air Force Base, Guam.",
+    "amount": 36882982.0,
+    "contracting_agency": {
+      "name": "36th Contracting Squadron",
+      "location": "Andersen AFB, Guam"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "Sea Pac Engineering Inc., Los Angeles, California, was awarded a $36,882,982 firm-fixed-price contract for troop housing construction. This contract provides for design and full repair of the Palau Dorm B25016, Andersen Air Force Base, Guam. Work will be performed at Andersen Air Force Base, Guam and is expected to be completed by Dec. 10, 2027. This contract was a competitive acquisition, and five offers were received. Fiscal 2025 operations and maintenance appropriations funds in the amount of $36,882,982 are being obligated at the time of award. The 36th Contracting Squadron, Andersen AFB, Guam, is the contracting activity (FA5240-25-C-0005)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "University of Oklahoma",
+        "contract_id": "FA2394-25-C-B029",
+        "location": "Norman, Oklahoma"
+      }
+    ],
+    "purpose": "Sustainment and modernization research and development for operationalizing additive manufacturing (AM), phase two, including development of a cross-platform AM repair framework for quality assurance, a performance-based AM qualification framework, and research on advanced manufacturing techniques for avionics sustainment to modernize Air Force logistics and maintenance operations.",
+    "amount": 8800000.0,
+    "contracting_agency": {
+      "name": "Air Force Laboratory",
+      "location": "Wright Patterson Air Force Base, Dayton, Ohio"
+    },
+    "contract_date": "2025-07-28",
+    "award_text": "University of Oklahoma, Norman, Oklahoma was awarded a $8,800,000 cost-reimbursement contract for sustainment and modernization research and development: operationalizing additive manufacturing (AM), phase two. This contract provides for development of a cross-platform AM repair framework for quality assurance and the development of a performance-based AM qualification framework along with research on advanced manufacturing techniques for avionics sustainment, ensuring a robust, scalable approach to modernizing Air Force logistics and maintenance operations. Work will be performed at Norman, Oklahoma, and is expected to be completed by Oct. 15, 2028. This contract was a competitive acquisition and one offer was received. Fiscal 2024 research and development funds in the amount of $8,800,000 are being obligated at time of award. The Air Force Laboratory, Wright Patterson Air Force Base, Dayton, Ohio, is the contracting activity (FA2394-25-C-B029)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Raytheon Missiles & Defense",
+        "contract_id": "N00024-22-C-5500",
+        "location": "Marlborough, Massachusetts"
+      }
+    ],
+    "purpose": "to exercise an option for hardware production of the AN/SPY-6(V) family of radars",
+    "amount": 52981009.0,
+    "contracting_agency": {
+      "name": "Naval Sea Systems Command",
+      "location": "Washington, D.C."
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "Raytheon Missiles & Defense, Marlborough, Massachusetts, was awarded a $52,981,009 fixed-price incentive (firm-target) modification to a previously awarded contract (N00024-22-C-5500) to exercise an option for hardware production of the AN/SPY-6(V) family of radars. Work will be performed in Andover, Massachusetts (31%); San Diego, California (9%); Sykesville, Maryland (9%); Scottsdale, Arizona (8%); Syracuse, New York (5%); Cerritos, California (5%); Stafford Springs, Connecticut (4%); Tulsa, Oklahoma (3%); Indianapolis, Indiana (3%); Portsmouth, Rhode Island (2%); Riverside, California (2%); and various locations across the U.S., each less than 1% (19%). Work is expected to be completed by September 2029. Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $52,981,009 will be obligated at the time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity. (Awarded Aug. 20, 2025)"
+  },
+  {
+    "contractors": [
+      {
+        "name": "Lockheed Martin Aeronautics Co.",
+        "contract_id": "N0001924C0011",
+        "location": "Fort Worth, Texas"
+      }
+    ],
+    "purpose": "Procures special tooling and test equipment in support of the Joint Strike Fighter aircraft for the Air Force, Marine Corps, Navy, Foreign Military Sales customers, and non-U.S. Department of Defense participants.",
+    "amount": 27235068.0,
+    "contracting_agency": {
+      "name": "Naval Air Systems Command",
+      "location": "Patuxent River, Maryland"
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "Lockheed Martin Aeronautics Co., Fort Worth, Texas, is awarded a $27,235,068 modification (P00010) to a previously awarded cost-plus-fixed-fee contract (N0001924C0011). This modification procures special tooling and test equipment in support of the Joint Strike Fighter aircraft for the Air Force, Marine Corps, Navy, Foreign Military Sales (FMS) customers, and non-U.S. Department of Defense (DOD) participants. Work will be performed in Marietta, Georgia (30%); Palmdale, California (29%); Fort Worth, Texas (28%); El Segundo, California (5%); Chesterfield, Michigan (4%); Melbourne, Florida (2%); and various other locations within the continental U.S. (2%), and is expected to be completed in December 2028. Fiscal 2023 aircraft procurement (Air Force) funds in the amount of $84,654; fiscal 2025 aircraft procurement (Air Force) funds in the amount of $10,915,690; fiscal 2023 aircraft procurement (Navy) funds in the amount of $42,328; fiscal 2025 aircraft procurement (Navy) funds in the amount of $5,321,146; fiscal 2023 aircraft procurement (Marine Corps) funds in the amount of $42,327; fiscal 2025 aircraft procurement (Marine Corps) funds in the amount of $5,437,289; non-U.S. DOD participants funds in the amount of $5,027,789; and FMS customer funds in the amount of $363,845, will be obligated at time of award, $169,303 of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Sedna Digital Solutions LLC",
+        "contract_id": "N00024-23-C-6132",
+        "location": "Manassas, Virginia"
+      }
+    ],
+    "purpose": "to exercise options for Navy engineering design, development, production support, equipment, and supporting material for SONAR systems",
+    "amount": 23842394.0,
+    "contracting_agency": {
+      "name": "Naval Sea Systems Command",
+      "location": "Washington, D.C."
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "Sedna Digital Solutions LLC,* Manassas, Virginia, is awarded a $23,842,394 cost-plus-fixed-fee contract modification to a previously awarded contract (N00024-23-C-6132) to exercise options for Navy engineering design, development, production support, equipment, and supporting material for SONAR systems. Work will be performed in Manassas, Virginia, and is expected to be completed by Jan. 30, 2029. Fiscal 2025 other procurement (Navy) funds in the amount of $9,070,204 (38%) will be obligated at time of award and will not expire at the end of the current fiscal year. Naval Sea Systems Command, Washington, D.C., is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Information Systems and Networks Corp.",
+        "contract_id": "M9549425C0014",
+        "location": "Bethesda, Maryland"
+      }
+    ],
+    "purpose": "To provide housing property management support services for Marine Corps service members residing in unaccompanied housing at 26 installations in the continental U.S. and outside, including Okinawa, Japan; Oceanside, California; Jacksonville, North Carolina; and others.",
+    "amount": 14268341.0,
+    "contracting_agency": {
+      "name": "Marine Corps Installations Command Contracting Office",
+      "location": "Arlington, Virginia"
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "Information Systems and Networks Corp., Bethesda, Maryland, has been awarded a $14,268,341 firm-fixed-price and cost contract (M9549425C0014) to provide housing property management support services for Marine Corps service members residing in unaccompanied housing (UH). Work will be performed at 26 installations located in both the continental U.S.  and outside the continental U.S. including Okinawa, Japan (23%); Oceanside, California (21%); Jacksonville, North Carolina (21%); San Diego, California (6%); Port Royal, South Carolina (5%); Twentynine Palms, California (4%); Kaneohe, Hawaii (4%); Quantico, Virginia (4%); Havelock, North Carolina (3%); Yuma, Arizona (3%), and various other locations making up less than 1%. This contract includes options which, if exercised, would bring the cumulative value of this contract to $28,536,683. If all options are exercised, work will continue through September 2026. Fiscal 2025 operation and maintenance (Marine Corps) funds in the amount of $14,268,341 will be obligated at time of award. This contract was not competitively procured and was awarded under the authority of 10 U.S. Code 3204(a)(1) as implemented by Federal Acquisition Regulation 6.302-1. The Marine Corps Installations Command Contracting Office, Arlington, Virginia, is the contracting activity (M9549425C0014)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Sea Dragon Energy Inc.",
+        "contract_id": "N0001425C1317",
+        "location": "San Diego, California"
+      }
+    ],
+    "purpose": "Seawater to Jet Fuel Demonstration Unit (Phase Two) effort",
+    "amount": 9497958.0,
+    "contracting_agency": {
+      "name": "Office of Naval Research",
+      "location": "Arlington, Virginia"
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "Sea Dragon Energy Inc.,* San Diego, California, is awarded a cost-plus-fixed-fee contract for the Seawater to Jet Fuel Demonstration Unit (Phase Two) effort. Work will be performed in San Diego, California, and is expected to be completed in August 2027. The total cumulative value of this contract, including a 24-month base period with no options, is $9,497,958. Fiscal 2024 research, development, test and evaluation (Navy) funds in the amount of $9,497,958, are obligated at the time of award and will expire at the end of the current fiscal year. This contract was competitively procured under long range broad agency announcement (BAA) (N0001425SB001) entitled \"Long Range Broad Agency Announcement (BAA) for Navy and Marine Corps Science and Technology.\" Since proposals will be received throughout the year under the Long-Range BAA, the number of proposals received in response to the solicitation is unknown. The Office of Naval Research, Arlington, Virginia, is the contracting activity (N0001425C1317)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Bestwork Industries for the Blind Inc.",
+        "contract_id": "SPE1C1-25-D-B014",
+        "location": "Cherry Hill, New Jersey"
+      }
+    ],
+    "purpose": "for fleece liners",
+    "amount": 48658050.0,
+    "contracting_agency": {
+      "name": "Defense Logistics Agency Troop Support",
+      "location": "Philadelphia, Pennsylvania"
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "Bestwork Industries for the Blind Inc.,** Cherry Hill, New Jersey, has been awarded a maximum $48,658,050 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for fleece liners. This is a three-year contract with no option periods. The ordering period end date is Aug. 20, 2028. Using customers are Navy and Coast Guard. Type of appropriation is fiscal 2025 through 2028 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-25-D-B014)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "InfraTech International LLC",
+        "contract_id": "FA5240-24-D-0004 – FA5240-25-F-0117",
+        "location": "Barrigada, Guam"
+      }
+    ],
+    "purpose": "Upgrading the generators and switchgear at Det 2, Northwest Field, Guam.",
+    "amount": 18986013.0,
+    "contracting_agency": {
+      "name": "36th Contracting Squadron",
+      "location": "Andersen Air Force Base, Guam"
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "InfraTech International LLC, Barrigada, Guam, was awarded a $18,986,013 firm-fixed-price contract for AJJY 25-1049M Upgrade Generator and Switchgear – Detachment 2. This contract provides for upgrading the generators and switchgear at Det 2, Northwest Field, Guam. Work will be performed at Northwest Field, Guam, and is expected to be completed by Nov. 22, 2027. This contract was a competitive acquisition, and two offers were received. Fiscal 2025 operations and maintenance appropriations funds in the amount of $18,986,013 are being obligated at the time of award. The 36th Contracting Squadron, Andersen Air Force Base, Guam, is the contracting activity (FA5240-24-D-0004 – FA5240-25-F-0117)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Modern International Inc.",
+        "contract_id": "FA5240-25-C-0002",
+        "location": "Barrigada, Guam"
+      }
+    ],
+    "purpose": "Repairs to the tie feeder circuits P-84 and P-85 for airfield construction",
+    "amount": 16985204.0,
+    "contracting_agency": {
+      "name": "36th Contracting Squadron",
+      "location": "Andersen Air Force Base, Guam"
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "Modern International Inc., Barrigada, Guam, was awarded a $16,985,204 firm-fixed-price contract for airfield construction. This contract provides for repairs to the tie feeder circuits P-84 and P-85. Work will be performed on Andersen Air Force Base, Guam, and is expected to be completed by Feb. 22, 2027. This contract was a competitive acquisition and eight offers were received. Fiscal 2025 operations and maintenance appropriations funds in the amount of $16,985,204 are being obligated at the time of award. The 36th Contracting Squadron, Andersen Air Force Base, Guam, is the contracting activity (FA5240-25-C-0002)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "EB Airfoils LLC",
+        "contract_id": "FA8121-25-D-0011",
+        "location": "Palm City, Florida"
+      }
+    ],
+    "purpose": "TF-33 Engine sustainment and repair of 2nd stage compressor blade sets",
+    "amount": 13357344.0,
+    "contracting_agency": {
+      "name": "Air Force Sustainment Center",
+      "location": "Tinker Air Force Base, Oklahoma"
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "EB Airfoils LLC, Palm City, Florida, was awarded a firm-fixed-price, indefinite-delivery/indefinite-quantity $13,357,344 contract for TF-33 Engine sustainment. This contract provides for the repair of 2nd stage compressor blade sets. Work will be performed at Palm City, Florida, and is expected to be completed by July 2029.  This contract was a competitive acquisition and one offer was received. No funds will be obligated at time of award. The Air Force Sustainment Center, Tinker Air Force Base, Oklahoma, is the contracting activity (FA8121-25-D-0011). (Awarded August 20, 2025)"
+  },
+  {
+    "contractors": [
+      {
+        "name": "Sea Pac Engineering Inc.",
+        "contract_id": "FA5240-25-C-0004",
+        "location": "Los Angeles, California"
+      }
+    ],
+    "purpose": "Design and repair of the Marbo Bulk Pump Station, Tank 2, Wells 1 and 3",
+    "amount": 9905586.0,
+    "contracting_agency": {
+      "name": "36th Contracting Squadron",
+      "location": "Andersen Air Force Base, Guam"
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "Sea Pac Engineering Inc., Los Angeles, California, was awarded a $9,905,586 firm-fixed-price contract for BPS, tank and well repairs. This contract provides for design and repair of the Marbo Bulk Pump Station, Tank 2, Wells 1 and 3, Work will be performed at Andersen Air Force Base, Guam, and is expected to be completed by Nov. 1, 2027. This contract was a competitive acquisition, and three offers were received. Fiscal 2025 operations and maintenance appropriations funds in the amount of $9,905,586 are being obligated at the time of award. The 36th Contracting Squadron, Andersen Air Force Base, Guam, is the contracting activity (FA5240-25-C-0004)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "S & K Design Build LLC",
+        "contract_id": "W912PP-25-C-0007",
+        "location": "St. Ignatius, Montana"
+      }
+    ],
+    "purpose": "design-bid-build project for water infrastructure",
+    "amount": 7844620.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Albuquerque, New Mexico"
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "S & K Design Build LLC, St. Ignatius, Montana, was awarded a firm-fixed-price contract for design-bid-build project for water infrastructure. The amount of this action is $ 7,844,620 with a total cumulative face value of $7,983,270. Bids were solicited via the internet with three received. Work will be performed in Melrose, New Mexico, with an estimated completion date of July 31, 2026. Fiscal 2025 military construction, defense-wide funds in the amount of $7,844,620 were obligated at the time of the award. U.S. Army Corps of Engineers, Albuquerque, New Mexico, is the contracting activity (W912PP-25-C-0007)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "V. Lopes Jr. & Sons GEC",
+        "contract_id": "W912LA-25-C-A002",
+        "location": "Santa Maria, California"
+      }
+    ],
+    "purpose": "construction of a vehicle maintenance shop",
+    "amount": 15836653.0,
+    "contracting_agency": {
+      "name": "U.S. Property and Fiscal Office",
+      "location": "California"
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "V. Lopes Jr. & Sons GEC,* Santa Maria, California, was awarded a firm-fixed-price contract for construction of a vehicle maintenance shop. The amount of this action is $15,836,653. Bids were solicited via the internet with four received. Work will be performed in Bakersfield, California, with an estimated completion date of March 18, 2027. Fiscal 2021 military construction, Army National Guard funds in the amount of $15,836,653 were obligated at the time of the award. U.S. Property and Fiscal Office, California, is the contracting activity (W912LA-25-C-A002)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Scale AI Inc.",
+        "contract_id": "W911QX-25-D-A011",
+        "location": "San Francisco, California"
+      }
+    ],
+    "purpose": "research and development services",
+    "amount": 99490983.0,
+    "contracting_agency": {
+      "name": "Army Contracting Command, Aberdeen Proving Ground",
+      "location": "Adelphi, Maryland"
+    },
+    "contract_date": "2025-08-21",
+    "award_text": "Scale AI Inc.,* San Francisco, California, was awarded a firm-fixed price contract for research and development services. The amount of this action is $99,490,983. Bids were solicited via the internet with 11 received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 20, 2030. Army Contracting Command, Aberdeen Proving Ground, Adelphi, Maryland, is the contracting activity (W911QX-25-D-A011)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Amentum Services Inc.",
+        "contract_id": "HDTRA125DE001",
+        "location": "Chantilly, Virginia"
+      },
+      {
+        "name": "Vertex Aerospace LLC, a V2X Co.",
+        "contract_id": "HDTRA125DE003",
+        "location": "Madison, Mississippi"
+      },
+      {
+        "name": "Jacobs Government Services Co.",
+        "contract_id": "HDTRA1DE004",
+        "location": "Arlington, Virginia"
+      },
+      {
+        "name": "Fluor Intercontinental Inc.",
+        "contract_id": "HDTRA125DE005",
+        "location": "Greenville, South Carolina"
+      },
+      {
+        "name": "Black & Veatch Special Projects Corp.",
+        "contract_id": "HDTRA125DE006",
+        "location": "Overland Park, Kansas"
+      },
+      {
+        "name": "Parsons Government Services International Inc.",
+        "contract_id": "HDTRA125DE007",
+        "location": "Pasadena, California"
+      }
+    ],
+    "purpose": "To deliver a broad range of services and products for the Cooperative Threat Reduction (CTR) Program, providing sustainable chemical, biological, radiological, and nuclear threat reduction capabilities to partner nations by reducing threats from weapons of mass destruction and related materials, technologies, facilities, and expertise.",
+    "amount": 3500000000.0,
+    "contracting_agency": {
+      "name": "Defense Threat Reduction Agency",
+      "location": "Fort Belvoir, Virginia"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "Amentum Services Inc., Chantilly, Virginia (HDTRA125DE001); Vertex Aerospace LLC, a V2X Co., Madison, Mississippi (HDTRA125DE003); Jacobs Government Services Co., Arlington, Virginia (HDTRA1DE004); Fluor Intercontinental Inc., Greenville, South Carolina (HDTRA125DE005); Black & Veatch Special Projects Corp., Overland Park, Kansas  (HDTRA125DE006); and Parsons Government Services International Inc., Pasadena, California (HDTRA125DE007), are awarded a combined $3,500,000,000 indefinite-delivery/indefinite-quantity, multiple award contract for the Cooperative Threat Reduction (CTR) Program. The ten-year contract is a cost-plus-fixed-fee, cost, cost-plus-award-fee, cost-plus-incentive-fee, firm-fixed-price, firm-fixed-price-level of effort, and time-and-materials contract. Each awardee is awarded a $10,000 minimum guarantee at contract award through Task Order Two on Sept. 10. This contract will deliver a broad range of services and products to provide sustainable chemical, biological, radiological, and nuclear threat reduction capabilities to partner nations. The CTR Program partners with willing countries to reduce threat from weapons of mass destruction and related materials, technologies, facilities, and expertise. Work will be performed at various locations throughout the world. Task orders issued under the contract may be for a duration of up to five years and may be extended up to three years past the last ordering date of the contracts. Funding will be obligated for each Task Order and no funds are obligated on the basic contracts. This contract was competitively procured via solicitation HDTRA1-24-R-0001 through the Procurement Integrated Enterprise Environment, solicitation module; the Government received seven offers. The Defense Threat Reduction Agency, CTR Contracting Office/DTRA/AL-ACC, Fort Belvoir, Virginia, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Raytheon Technologies Corp.",
+        "contract_id": "N0001923C0030",
+        "location": "East Hartford, Connecticut"
+      }
+    ],
+    "purpose": "Production and delivery of 141 F135 propulsion systems in support of Lot 18 F-35 aircraft production for the Joint Strike Fighter program for the Air Force, Marine Corps, Navy, F-35 Cooperative Program Partners, and Foreign Military Sales customers.",
+    "amount": 2878495761.0,
+    "contracting_agency": {
+      "name": "Naval Air Systems Command",
+      "location": "Patuxent River, Maryland"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "Raytheon Technologies Corp., doing business as Pratt and Whitney Military Engines, East Hartford, Connecticut, is awarded a not-to-exceed $2,878,495,761 cost-plus-incentive-fee, fixed-price-incentive-fee, undefinitized contract modification (P00008) to a previously awarded contract (N0001923C0030). This modification adds scope for the production and delivery of 141 F135 propulsion systems in support of Lot 18 F-35 aircraft production for the Joint Strike Fighter program for the Air Force, Marine Corps, Navy, F-35 Cooperative Program Partners, and Foreign Military Sales (FMS) customers. Work will be performed in East Hartford, Connecticut (17.3%); Indianapolis, Indiana (10.4%); Middletown, Connecticut (8%); Kent, Washington (7%); North Berwick, Maine (4%); El Cajon, California (3%); Cromwell, Connecticut (3%); Whitehall, Michigan (3%); Portland, Oregon (2%); San Diego, California (2%); South Bend, Indiana (2%); Columbus, Georgia (1%); Hampton, Virginia (1%); Manchester, Connecticut (1%); Cheshire, Connecticut (1%); Elmwood Park, New Jersey (1%); various locations within the continental U.S. (27.3%); and various locations outside the continental U.S. (7%), and is expected to be completed in February 2028. Fiscal 2024 aircraft procurement (Navy) funding in the amount of $575,726,390; fiscal 2024 aircraft procurement (Air Force) funding in the amount of $537,304,610; fiscal 2025 aircraft procurement (Navy) funds in the amount of $79,962,704; fiscal 2025 aircraft procurement (Air Force) funding in the amount of $77,336,243; FMS customer funds in the amount of $513,763,860; and non-U.S. Department of Defense participant funds in the amount of $228,500,253, will be obligated at the time of award, none of which will expire at the end of the current fiscal year. Naval Air Systems Command, Patuxent River, Maryland, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "The Boeing Co.",
+        "contract_id": "N00383-25-F-YY2B",
+        "location": "St. Louis, Missouri"
+      }
+    ],
+    "purpose": "for the repair of landing gear used on the F/A-18 E/F aircraft",
+    "amount": 315118600.0,
+    "contracting_agency": {
+      "name": "Naval Supply Systems Command Weapon Systems Support",
+      "location": "Philadelphia, Pennsylvania"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "The Boeing Co., St. Louis, Missouri, is being awarded $315,118,600 for ceiling-priced delivery order N00383-25-F-YY2B under a previously awarded basic ordering agreement (N00383-22-G-YY01) for the repair of landing gear used on the F/A-18 E/F aircraft. The delivery order does not include an option provision. Work will be performed in Longueuil, Quebec, Canada (37%); St. Louis, Missouri (21%); Fort Walton Beach, Florida (18%); Safran, Ontario, Canada (12%); Coronado, California (6%); and various other material suppliers that cannot be determined at this time (6%). Work is expected to be completed by September 2029. Fiscal 2025 working capital funds (Navy) in the amount of $154,408,114 will be obligated at the time of award and funds will not expire at the end of the current fiscal year. One company was solicited for this sole-source requirement pursuant to the authority set forth in 10 U.S. Code 2304 (c)(1), with one offer received. Naval Supply Systems Command Weapon Systems Support, Philadelphia, Pennsylvania, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Savvee Inc.",
+        "contract_id": "N3220525F1267",
+        "location": "Chantilly, Virginia"
+      }
+    ],
+    "purpose": "Provide information technology engineering support services to enhance IT capabilities, develop and maintain solutions for emergent cybersecurity mandates, and provide continuous life cycle sustainment for deployed systems.",
+    "amount": 44092088.0,
+    "contracting_agency": {
+      "name": "Military Sealift Command",
+      "location": "Norfolk, Virginia"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "Savvee Inc., Chantilly, Virginia, is awarded a $44,092,088 firm-fixed-price, level of effort task order (N3220525F1267) under General Services Administration (GSA) multiple award schedule contract (47QTCA19D00J0) for information technology (IT) engineering support services. The contractor will provide technical support services to help satisfy current and emerging requirements to enhance IT capabilities and help develop and maintain solutions to satisfy emergent cybersecurity mandates and provide continuous life cycle sustainment for deployed systems. The contract contains a 30 day phase-in period, a base period of 11-months and four 12-month options, and a six-month option under Federal Acquisition Regulation 52.217-8 which, if exercised, would bring the cumulative value of the contract to $44,092,088. Work under this task order will be performed on a world-wide basis beginning Sept. 8, 2025, and will conclude March 7, 2031, if all options are exercised. Working capital funds (Navy) in the amount of $5,784,009; and working capital funds (Transportation) in the amount of $473,649, are obligated for fiscal 2025 and will not expire at the end of the current fiscal year. This contract was solicited through the GSA E-Buy system and 11 proposals were received. Military Sealift Command, Norfolk, Virginia, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Huntington Ingalls Industries Fleet Support Group LLC",
+        "contract_id": "N55236-25-F-9982",
+        "location": "Virginia Beach, Virginia"
+      }
+    ],
+    "purpose": "Global engineering and technical support for the overhaul and repair of equipment and systems associated with west coast aircraft carriers and surface ships.",
+    "amount": 16813248.0,
+    "contracting_agency": {
+      "name": "Southwest Regional Maintenance Center",
+      "location": "San Diego, California"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "Huntington Ingalls Industries Fleet Support Group LLC, Virginia Beach, Virginia, was awarded a $16,813,248 delivery order (N55236-25-F-9982) off indefinite-delivery/indefinite-quantity contract (N00024-21-D-4114) in support of Task Order 25-P114 for global engineering and technical support for the overhaul and repair of equipment and systems associated with west coast aircraft carriers and surface ships. The overall total contract value ceiling remains unchanged on the contract at $272,977,437. Work will be performed at the naval ship repair facilities in San Diego, California (40%); Bremerton, Washington (40%); and Yokosuka, Japan (20%), and is expected to be completed July 2026. Fiscal 2025 operations and maintenance (Navy) funds in the amount of $16,813,248 was obligated at the time of award and will expire at the end of the current fiscal year. Southwest Regional Maintenance Center, San Diego, California, is the contracting activity."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Detyens Shipyards Inc.",
+        "contract_id": "N3220525C4148",
+        "location": "North Charleston, South Carolina"
+      }
+    ],
+    "purpose": "75-calendar day shipyard availability for the midterm availability of Military Sealift Command's fleet replenishment oiler USNS Laramie (T-AO 203)",
+    "amount": 13685726.0,
+    "contracting_agency": {
+      "name": "Military Sealift Command",
+      "location": "Norfolk, Virginia"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "Detyens Shipyards Inc.,* North Charleston, South Carolina, was awarded a $13,685,726 firm-fixed-price contract (N3220525C4148) for 75-calendar day shipyard availability for the midterm availability of Military Sealift Command's fleet replenishment oiler USNS Laramie (T-AO 203). This contract includes a base work package and two unexercised options for additional work and time which, if exercised, would increase the cumulative value of this contract to $13,775,619. Work will be performed in Charleston, South Carolina, beginning Aug. 26, 2025, and is expected to be completed by Nov. 8, 2025. Working capital funds (Navy) in the amount of $13,685,726 are obligated for fiscal 2025 and will not expire at the end of the fiscal year. This contract was a small business set-aside solicited via the sam.gov website and five offers received. Military Sealift Command, Norfolk, Virginia, is the contracting activity (N3220525C4148)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Rolls Royce Marine North America Inc.",
+        "contract_id": "N0016725F1139",
+        "location": "Walpole, Massachusetts"
+      }
+    ],
+    "purpose": "Procurement of all material to manufacture, inspect, paint, and deliver one complete shipset of lightweight stator blades for Virginia-class attack submarines. Work will be performed in Pascagoula, Mississippi, and is expected to be completed by July 31, 2028.",
+    "amount": 9877737.0,
+    "contracting_agency": {
+      "name": "Naval Surface Warfare Center Carderock Division",
+      "location": "West Bethesda, Maryland"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "Rolls Royce Marine North America Inc., Walpole, Massachusetts, is awarded a $9,877,737 cost-plus-fixed-fee order for the procurement of all material to manufacture, inspect, paint, and deliver one complete shipset of lightweight stator blades for Virginia-class attack submarines. Work will be performed in Pascagoula, Mississippi, and is expected to be completed by July 31, 2028. Fiscal 2024 shipbuilding and conversion (Navy) funds in the amount of $9,877,737 will be obligated at the time of award and will not expire at the end of the current fiscal year. This contract was not competitively procured under the authority of 10 U.S. Code 3204(a)(1) as implemented by Federal Acquisition Regulation 6.302-1 via SAM.gov with one offer received. Naval Surface Warfare Center Carderock Division, West Bethesda, Maryland, is the contracting activity (N0016525G0001, N0016725F1139)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Choctawhatchee Electric Cooperative Inc.",
+        "contract_id": "SP0600-16-C-8314",
+        "location": "DeFuniak Springs, Florida"
+      }
+    ],
+    "purpose": "for electric utility services at Eglin Air Force Base, Florida",
+    "amount": 17701753.0,
+    "contracting_agency": {
+      "name": "Defense Logistics Agency Energy",
+      "location": "Fort Belvoir, Virginia"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "Choctawhatchee Electric Cooperative Inc., DeFuniak Springs, Florida, has been awarded a maximum $17,701,753 modification (P00081) to a 50-year contract (SP0600-16-C-8314) with no option periods incorporating the economic-price adjustment agreement for electric utility services at Eglin Air Force Base, Florida. This is a fixed-price with economic-price-adjustment contract. The performance completion date is July 31, 2067. Using military service is Air Force. Type of appropriation is fiscal 2025 through 2067 Air Force operations and maintenance funds. The contracting activity is the Defense Logistics Agency Energy, Fort Belvoir, Virginia."
+  },
+  {
+    "contractors": [
+      {
+        "name": "American Polymers LLC",
+        "contract_id": "SPE1C1-25-D-0084",
+        "location": "Vernon, California"
+      }
+    ],
+    "purpose": "for layer 7 trousers",
+    "amount": 8345484.0,
+    "contracting_agency": {
+      "name": "Defense Logistics Agency Troop Support",
+      "location": "Philadelphia, Pennsylvania"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "American Polymers LLC,** doing business as AMPO, Vernon, California, has been awarded a maximum $8,345,484 firm-fixed-price, indefinite-delivery/indefinite-quantity contract for layer 7 trousers. This was a competitive acquisition with five responses received. This is a four-year contract with no option periods. Location of performance is New Jersey, with an Aug. 25, 2029, ordering period end date. Using military services are Navy, Air Force, and Marine Corps. Type of appropriation is fiscal 2025 through 2028 defense working capital funds. The contracting activity is the Defense Logistics Agency Troop Support, Philadelphia, Pennsylvania (SPE1C1-25-D-0084)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "TurbineOne LLC",
+        "contract_id": "W911QX-25-D-A010",
+        "location": "San Francisco, California"
+      }
+    ],
+    "purpose": "Automated Target Recognition at the Edge in support of Army intelligence enterprise modernization.",
+    "amount": 98900000.0,
+    "contracting_agency": {
+      "name": "Army Contracting Command",
+      "location": "Aberdeen Proving Ground, Maryland"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "TurbineOne LLC, San Francisco, California, was awarded a firm-fixed-price contract for Automated Target Recognition at the Edge in support of Army intelligence enterprise modernization. The amount of this action is $98,900,000. Bids were solicited via the internet with one received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 24, 2030. Army Contracting Command, Aberdeen Proving Ground, Maryland, is the contracting activity (W911QX-25-D-A010)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Copper Construction Company Inc.",
+        "contract_id": "W912HN-25-C-A013",
+        "location": "Vidalia, Georgia"
+      }
+    ],
+    "purpose": "renovation of a de-painting building portion and painting facility",
+    "amount": 45264226.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "Savannah, Georgia"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "Copper Construction Company Inc.,* Vidalia, Georgia, was awarded a firm-fixed-price contract for renovation of a de-painting building portion and painting facility. The amount of this action is $45,264,226. Bids were solicited via the internet with three received. Work will be performed in Warner Robins, Georgia, with an estimated completion date of Sept. 30, 2028. Fiscal 2025 operation and maintenance, defense-wide, in the amount of $45,264,226 were obligated at the time of the award. U.S. Army Corps of Engineers, Savannah, Georgia, is the contracting activity (W912HN-25-C-A013)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Cashman Dredging and Marine Contracting Co.",
+        "contract_id": "W912DS-25-C-A008",
+        "location": "Quincy, Massachusetts"
+      }
+    ],
+    "purpose": "maintenance dredging of the New York and New Jersey Harbor",
+    "amount": 18296710.0,
+    "contracting_agency": {
+      "name": "U.S. Army Corps of Engineers",
+      "location": "New York, New York"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "Cashman Dredging and Marine Contracting Co., Quincy, Massachusetts, was awarded a firm-fixed price contract for maintenance dredging of the New York and New Jersey Harbor. The amount of this action is $18,296,710. Bids were solicited via the internet with five received. Work will be performed in Staten Island, New York, with an estimated completion date of Sept. 15, 2025. Fiscal 2025 operation and maintenance funds in the amount of $18,296,710 were obligated at the time of the award. U.S. Army Corps of Engineers, New York, New York, is the contracting activity (W912DS-25-C-A008)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "The April Corp.",
+        "contract_id": "W91248-25-D-A008",
+        "location": "Bowling Green, Kentucky"
+      }
+    ],
+    "purpose": "to provide preventive maintenance service, inspection, and repair and/or replacement of overhead and roll-up doors",
+    "amount": 10000000.0,
+    "contracting_agency": {
+      "name": "Army 419th Contracting Support Brigade",
+      "location": "Fort Liberty, North Carolina"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "The April Corp.,* Bowling Green, Kentucky, was awarded a firm-fixed-price contract to provide preventive maintenance service, inspection, and repair and/or replacement of overhead and roll-up doors. The amount of this action is $10,000,000. Bids were solicited via the internet with seven received. Work locations and funding will be determined with each order, with an estimated completion date of Aug. 21, 2030. Army 419th Contracting Support Brigade, Fort Liberty, North Carolina, is the contracting activity (W91248-25-D-A008)."
+  },
+  {
+    "contractors": [
+      {
+        "name": "Lewis Machine & Tools Defense",
+        "contract_id": "H9240325DE003",
+        "location": "Eldridge, Iowa"
+      }
+    ],
+    "purpose": "for medium range gas gun-assault kits, spare parts and accessories, new equipment training, and engineering change proposals",
+    "amount": 92000000.0,
+    "contracting_agency": {
+      "name": "U.S. Special Operations Command",
+      "location": "MacDill Air Force Base, Florida"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "Lewis Machine & Tools Defense, Eldridge, Iowa, was awarded a 10-year indefinite-delivery/indefinite-quantity contract (H9240325DE003) with a maximum ceiling of $92,000,000 for medium range gas gun-assault kits, spare parts and accessories, new equipment training, and engineering change proposals. The work will be performed in Eldridge, Iowa, and the last day to order under the contract is Aug. 14, 2035. U.S. Special Operations Command, MacDill Air Force Base, Florida, is the contracting activity. (Awarded Aug. 20, 2025)"
+  },
+  {
+    "contractors": [
+      {
+        "name": "Sigmatech Inc.",
+        "contract_id": "FA7014-25-C0041",
+        "location": "Colorado Springs"
+      }
+    ],
+    "purpose": "systems engineering and technical assistance support for Office of the Assistant Secretary for Space Acquisition and Integration",
+    "amount": 9728495.0,
+    "contracting_agency": {
+      "name": "Air Force District of Washington Contracting Directorate",
+      "location": "Joint Base Andrews, Maryland"
+    },
+    "contract_date": "2025-08-22",
+    "award_text": "Sigmatech Inc., Colorado Springs, was awarded a $9,728,495 firm-fixed-price contract for systems engineering and technical assistance. This contract provides for systems engineering and technical assistance support for Office of the Assistant Secretary for Space Acquisition and Integration. Work will be performed in the National Capital Region and is expected to be completed by Feb. 23, 2026.  This contract was a sole source acquisition. Fiscal 2025 operations and maintenance appropriations funds in the amount of $9,728,495 are being obligated at the time of award. The Air Force District of Washington Contracting Directorate, Joint Base Andrews, Maryland, is the contracting activity (FA7014-25-C0041), (Awarded Aug. 21, 2025)"
   }
 ]

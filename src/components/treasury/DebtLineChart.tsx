@@ -1,4 +1,4 @@
-"use client"; // if using Next.js app router, client component needed
+"use client";
 
 import React from "react";
 import {
