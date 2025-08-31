@@ -1,78 +1,110 @@
-'use client';
+'use client'
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { FaXTwitter, FaGithub } from 'react-icons/fa6';
 import Link from 'next/link';
 
-export default function Header() {
-    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+function Header() {
+  const [isOpen, setIsOpen] = useState(false);
 
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobileMenuOpen(window.innerWidth < 768 ? false : isMobileMenuOpen);
-        };
-        window.addEventListener('resize', handleResize);
-        handleResize();
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
+  return (
+    <div className="fixed w-[100%] bg-[#0c122d] p-2 lg:p-4 border-b border-slate-700 grid grid-cols-12 z-100">
+      
+      {/* left div */}
+      <div className="flex col-start-1 col-span-1 border-r border-slate-700 items-center">
+        <div>
+          {/* Hamburger Button */}
+          <button onClick={() => setIsOpen(!isOpen)} className="relative z-40 p-2 md:px-4 rounded-lg shadow-md text-white hover:text-[#2596be]">
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isOpen? 'M6 18L18 6M6 6l12 12': 'M4 6h16M4 12h16m-7 6h7'}/>
+            </svg>
+          </button>
 
-    return (
-        <header className="fixed top-2 left-1/2 transform -translate-x-1/2 w-[95%] bg-[#355e93] text-white rounded-xl shadow-xl z-30">
-            <nav className="flex items-center justify-between px-6">
-                <Link href="/" className="hover:text-slate-800">
-                    <div className="text-2xl font-bold p-4">GovFeeds</div>
-                </Link>
-                <button
-                    className="md:hidden focus:outline-none"
-                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                >
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isMobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}></path>
-                    </svg>
-                </button>
-                <ul className={`flex space-x-6 md:items-center ${isMobileMenuOpen ? 'flex flex-col absolute top-full left-0 w-full bg-[#355e93] rounded-b-lg py-4' : 'hidden md:flex'}`}>
-                    <li>
-                        <Link href="#about">
-                            <div className="block pl-4 py-2 hover:text-slate-800">About</div>
-                        </Link>
-                    </li>
-                    
-                    <li className="relative">
-                        <button onClick={() => setIsDropdownOpen(!isDropdownOpen)} className="block pl-4 md:pl-2 py-2 hover:text-slate-800 focus:outline-none">
-                            Feeds🔻
-                        </button>
-                        {isDropdownOpen && (
-                            <ul className="bg-white rounded-xl shadow-xl w-60 border border-[#355e93] md:absolute md:w-64">
-                                <li>
-                                    <Link href="/congress">
-                                        <div className="block text-slate-600 px-4 py-2 hover:bg-[#4a7ab5] hover:text-white">US Congress</div>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/frb">
-                                        <div className="block text-slate-600 px-4 py-2 hover:bg-[#4a7ab5] hover:text-white">Federal Reserve Board</div>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/dod">
-                                        <div className="block text-slate-600 px-4 py-2 hover:bg-[#4a7ab5] hover:text-white">Department of Defense</div>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/treasury">
-                                        <div className="block text-slate-600 px-4 py-2 hover:bg-[#4a7ab5] hover:text-white">Treasury Direct</div>
-                                    </Link>
-                                </li>
-                            </ul>
-                        )}
-                    </li>
-                    <li>
-                        <Link href="/contact">
-                            <div className="block pl-4 md:pl-0 py-2 hover:text-slate-800">Contact</div>
-                        </Link>
-                    </li>
+          {/* Drawer */}
+          <div
+            className={`fixed bg-gradient-to-l from-[#0c122d] to-[#151f4c] top-0 left-0 h-full w-3/4 shadow-xl transform transition-transform duration-300 ease-in-out z-20 ${
+                isOpen ? 'translate-x-0' : '-translate-x-full'
+            }`}>
+            <nav className="pl-10 space-y-4 pt-20">
+                {/* Feeds category */}
+                <div className="text-white font-bold">Feeds</div>
+                <ul className="pl-4 space-y-2">
+                <li>
+                    <Link href="/congress">
+                    <div className="block text-slate-200 hover:text-[#2596be]">US Congress</div>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/frb">
+                    <div className="block text-slate-200 hover:text-[#2596be]">Federal Reserve Board</div>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/dod">
+                    <div className="block text-slate-200 hover:text-[#2596be]">Department of Defense</div>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/treasury">
+                    <div className="block text-slate-200 hover:text-[#2596be]">Treasury Direct</div>
+                    </Link>
+                </li>
+                </ul>
+
+                {/* Another category if needed */}
+                <div className="text-white font-bold mt-4">Other Links</div>
+                <ul className="pl-4 space-y-2">
+                <li>
+                    <Link href="/about">
+                    <div className="block text-slate-200 hover:text-[#2596be]">About</div>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/contact">
+                    <div className="block text-slate-200 hover:text-[#2596be]">Contact</div>
+                    </Link>
+                </li>
                 </ul>
             </nav>
-        </header>
-    )
+            </div>
+
+        </div>
+      </div>
+
+      {/* center div */}
+      <div className="flex col-start-3 col-span-8 items-center justify-center border-r border-slate-700 z-40">
+        <div className="flex items-center text-white">
+          {/* <p className="text-md">The</p> */}
+          <Link href="/">
+            <p className="pl-2 text-2xl font-semibold">GovFeeds</p>
+          </Link>
+          {/* <p className="pl-2 text-md">Project</p> */}
+        </div>
+      </div>
+
+      {/* right div */}
+      <div className="flex col-start-11 col-span-2 items-center justify-center">
+        <div className="flex space-x-4 text-white">
+          <a
+            href="https://x.com/Wallscreet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#2596be] transition-colors"
+          >
+            <FaXTwitter size={22} />
+          </a>
+          <a
+            href="https://github.com/wallscreet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#2596be] transition-colors"
+          >
+            <FaGithub size={22} />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }
+
+export default Header;
