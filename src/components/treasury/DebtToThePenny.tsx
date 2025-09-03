@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
 import {
   useReactTable,
@@ -134,7 +135,7 @@ export default function DebtToThePenny() {
       </div>
 
       {/* Line Chart */}
-      <div className="w-full h-72 md:h-96 shadow-lg">
+      <div className="w-full h-72 md:h-96 shadow-lg flex">
         <ResponsiveContainer>
           <LineChart data={[...data].reverse()}>
             <CartesianGrid strokeDasharray="4 4" />
@@ -280,5 +281,4 @@ export default function DebtToThePenny() {
         </span>
       </div>
   </div>
-)
-}
+)}
