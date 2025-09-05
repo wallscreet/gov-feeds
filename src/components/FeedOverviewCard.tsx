@@ -20,7 +20,7 @@ export default function FeedOverview() {
         <ul className="list-disc list-inside space-y-2 text-[#355e93]">
           <li>
             <Link href="/dod" className="hover:text-slate-800 transition-colors">
-              Department of Defense
+              Department of War
             </Link>
           </li>
           <li>
