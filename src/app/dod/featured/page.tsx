@@ -25,7 +25,7 @@ export default async function Home() {
 
   return (
     <div className="container mx-auto p-4 pt-24">
-      <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-2">Department of Defense</h1>
+      <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-2">US Department of War</h1>
       <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-2">Feature Stories</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 pt-6">

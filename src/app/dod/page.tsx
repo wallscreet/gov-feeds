@@ -13,7 +13,7 @@ export default function DodHome() {
     <div className="min-h-screen">
       <div className="max-w-5xl mx-auto pt-24 px-4">
         <h1 className="text-center text-xl tracking-widest text-[#355e93] uppercase mb-8 font-semibold">
-          US Department of Defense
+          US Department of War
         </h1>
 
         <div className="grid grid-cols-1 max-w-xl mx-auto sm:grid-cols-1 md:grid-cols-1 gap-4">

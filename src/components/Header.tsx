@@ -50,7 +50,7 @@ function Header() {
                 onClick={() => toggleSubmenu("dod")}
                 className="w-full text-left block text-white font-bold hover:text-[#2596be]"
               >
-                Department of Defense
+                War Department
               </button>
               {activeSubmenu === "dod" && (
                 <div className="absolute top-[-16] left-0 ml-42 w-60 border-l border-white p-4 space-y-4 z-50 rounded-lg pl-6">
