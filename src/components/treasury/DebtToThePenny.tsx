@@ -67,8 +67,13 @@ export default function DebtToThePenny() {
     {
       header: "Date",
       accessorKey: "record_date",
-      cell: (info) =>
-        new Date(info.getValue() as string).toLocaleDateString("en-US"),
+      // Use the string directly — no Date parsing
+      cell: (info) => {
+        const dateStr = info.getValue() as string;
+        // format YYYY-MM-DD → MM/DD/YYYY
+        const [year, month, day] = dateStr.split("-");
+        return `${month}/${day}/${year}`;
+      },
     },
     {
       header: "Public Debt",
@@ -120,8 +125,16 @@ export default function DebtToThePenny() {
       {/* Current Total Debt */}
       <div className="space-y-1">
         {data[0] && (
+          // <div className="text-sm text-slate-800 text-center mb-1">
+          //   As Of: {new Date(data[0].record_date).toLocaleDateString("en-US")}
+          // </div>
           <div className="text-sm text-slate-800 text-center mb-1">
-            As Of: {new Date(data[0].record_date).toLocaleDateString("en-US")}
+            As Of: {data[0]?.record_date
+              ? (() => {
+                  const [y, m, d] = data[0].record_date.split("-");
+                  return `${m}/${d}/${y}`;
+                })()
+              : ""}
           </div>
         )}
         <div className="text-xl md:text-3xl font-semibold text-red-600 text-center">
@@ -129,7 +142,7 @@ export default function DebtToThePenny() {
           {latestDebt.toLocaleString("en-US", {
             style: "currency",
             currency: "USD",
-            maximumFractionDigits: 0,
+            maximumFractionDigits: 2,
           })}
         </div>
       </div>
@@ -139,15 +152,23 @@ export default function DebtToThePenny() {
         <ResponsiveContainer>
           <LineChart data={[...data].reverse()}>
             <CartesianGrid strokeDasharray="4 4" />
-            <XAxis
+            {/* <XAxis
               dataKey="record_date"
               tickFormatter={(date) => new Date(date).getFullYear().toString()}
+              minTickGap={40}
+            /> */}
+            <XAxis
+              dataKey="record_date"
+              tickFormatter={(date) => {
+                const [year] = date.split("-");
+                return year; // just the year
+              }}
               minTickGap={40}
             />
             <YAxis
               tickFormatter={(value) => `$${(value / 1_000_000_000_000).toFixed(1)}T`}
             />
-            <Tooltip
+            {/* <Tooltip
               formatter={(value: number) =>
                 value.toLocaleString("en-US", {
                   style: "currency",
@@ -158,6 +179,19 @@ export default function DebtToThePenny() {
               labelFormatter={(date) =>
                 new Date(date).toLocaleDateString("en-US")
               }
+            /> */}
+            <Tooltip
+              formatter={(value: number) =>
+                value.toLocaleString("en-US", {
+                  style: "currency",
+                  currency: "USD",
+                  maximumFractionDigits: 0,
+                })
+              }
+              labelFormatter={(date) => {
+                const [year, month, day] = date.split("-");
+                return `${month}/${day}/${year}`;
+              }}
             />
             <Line
               type="monotone"
