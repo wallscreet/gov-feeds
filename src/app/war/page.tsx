@@ -1,11 +1,11 @@
 import Link from "next/link";
 
 const rssLinks = [
-  { label: "Contract Announcements", href: "/dod/awards" },
-  { label: "Feature Stories", href: "/dod/featured" },
-  { label: "News", href: "/dod/news" },
-  { label: "Press Releases", href: "/dod/releases" },
-  { label: "Advisories", href: "/dod/advisories" },
+  { label: "Contract Announcements", href: "/war/awards" },
+  { label: "Feature Stories", href: "/war/featured" },
+  { label: "News", href: "/war/news" },
+  { label: "Press Releases", href: "/war/releases" },
+  { label: "Advisories", href: "/war/advisories" },
 ];
 
 export default function DodHome() {

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { parseStringPromise } from 'xml2js';
 
 interface RssItem {
@@ -31,14 +32,20 @@ export default async function Home() {
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 pt-6">
         {items.map((item, index) => (
           <div key={index} className="bg-gray-100 border border-slate-200 shadow-lg rounded-lg p-4">
-            <h2 className="text-xl text-[#355e93] font-semibold mb-2">{cleanTitle(item.title[0])}</h2>
-            {item.enclosure?.[0]?.$.url && (
-              <img
-                src={item.enclosure[0].$.url}
-                alt={item.title[0]}
-                className="w-full h-48 object-cover rounded-md mb-2"
-              />
-            )}
+            <Link href={item.link[0]}>
+              <h2 className="text-xl text-[#355e93] font-semibold mb-2">{cleanTitle(item.title[0])}</h2>
+            </Link>
+
+            <Link href={item.link[0]}>
+              {item.enclosure?.[0]?.$.url && (
+                <img
+                  src={item.enclosure[0].$.url}
+                  alt={item.title[0]}
+                  className="w-full h-48 object-cover rounded-md mb-2"
+                />
+              )}
+            </Link>
+
             <p className="text-slate-700 mb-2">{new Date(item.pubDate[0]).toLocaleDateString()}</p>
             <p className="text-slate-700 mb-4">{item.description[0].substring(0, 225)}...</p>
             <a href={item.link[0]} target="_blank" rel="noopener noreferrer" className="text-[#355e93] hover:text-blue-800 hover:underline">Read more</a>

@@ -54,19 +54,19 @@ function Header() {
               </button>
               {activeSubmenu === "dod" && (
                 <div className="absolute top-[-16] left-0 ml-42 w-60 border-l border-white p-4 space-y-4 z-50 rounded-lg pl-6">
-                  <Link href="/dod/awards" className="block text-white hover:text-[#2596be]">
+                  <Link href="/war/awards" className="block text-white hover:text-[#2596be]">
                     Contract Announcements
                   </Link>
-                  <Link href="/dod/featured" className="block text-white hover:text-[#2596be]">
+                  <Link href="/war/featured" className="block text-white hover:text-[#2596be]">
                     Feature Stories
                   </Link>
-                  <Link href="/dod/news" className="block text-white hover:text-[#2596be]">
+                  <Link href="/war/news" className="block text-white hover:text-[#2596be]">
                     News
                   </Link>
-                  <Link href="/dod/releases" className="block text-white hover:text-[#2596be]">
+                  <Link href="/war/releases" className="block text-white hover:text-[#2596be]">
                     Press Releases
                   </Link>
-                  <Link href="/dod/advisories" className="block text-white hover:text-[#2596be]">
+                  <Link href="/war/advisories" className="block text-white hover:text-[#2596be]">
                     Advisories
                   </Link>
                 </div>
