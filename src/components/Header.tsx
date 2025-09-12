@@ -129,10 +129,10 @@ function Header() {
                   <Link href="/frb/speeches" className="block text-white hover:text-[#2596be]">
                     <p>Speeches & Testimony</p>
                   </Link>
-                  <Link href="/press-releases" className="block text-white hover:text-[#2596be]">
+                  <Link href="/frb/press-releases" className="block text-white hover:text-[#2596be]">
                     <p>Press Releases</p>
                   </Link>
-                  <Link href="/research-papers" className="block text-white hover:text-[#2596be]">
+                  <Link href="/frb/research-papers" className="block text-white hover:text-[#2596be]">
                     <p>Research Papers</p>
                   </Link>
                 </div>
