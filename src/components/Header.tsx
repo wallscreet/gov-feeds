@@ -184,8 +184,8 @@ function Header() {
             className="hover:text-[#2596be] transition-colors"
           >
             <img
-              src="/DiscoRoverLogo.png"
-              alt="Your Project"
+              src="/DiscoRover.png"
+              alt="DiscoRover Project"
               className="h-6 w-6"
             />
           </a>
