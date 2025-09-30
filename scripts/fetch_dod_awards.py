@@ -308,7 +308,7 @@ def contract_awards_to_master_json(out_path: str, filepath: str):
         # Get structured award
         xclient = XAIClient()
         award_details = xclient.get_structured_response(
-            model="grok-3-mini",
+            model="grok-4-fast-non-reasoning",
             response_format=DodContractInfo,
             content=text,
         )
